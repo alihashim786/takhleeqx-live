@@ -12,6 +12,7 @@ food industry benchmarks. This demonstrates PREDICTIVE ANALYTICS
 as an agent capability.
 """
 
+import os
 import json
 import logging
 from datetime import datetime, timezone
@@ -127,7 +128,8 @@ def performance_predictor_node(state: PipelineState) -> dict:
             sample_hashtags=sample_hashtags,
         )
 
-        client = OpenAI(api_key=settings.OPENAI_API_KEY)
+        api_key = os.environ.get("OPENAI_API_KEY", settings.OPENAI_API_KEY)
+        client = OpenAI(api_key=api_key)
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}],

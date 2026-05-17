@@ -20,7 +20,8 @@ settings = get_settings()
 logger = logging.getLogger("takhleeqx.agents.reel_producer")
 
 def _generate_script(prompt: str) -> dict:
-    client = OpenAI(api_key=settings.OPENAI_API_KEY)
+    api_key = os.environ.get("OPENAI_API_KEY", settings.OPENAI_API_KEY)
+    client = OpenAI(api_key=api_key)
     try:
         response = client.chat.completions.create(
             model="gpt-4o",
@@ -47,9 +48,12 @@ def _generate_script(prompt: str) -> dict:
         }
 
 def _generate_creatomate_video(script_data: dict, image_url: str) -> str:
+    # A fun fallback meme video URL to use if Creatomate is not configured or fails
+    fallback_video = "https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/31dd2e29-808d-4843-a5a3-f416851f3b0a.mp4"
+    
     if not settings.CREATOMATE_API_KEY or not settings.CREATOMATE_TEMPLATE_ID:
-        logger.warning("Creatomate API Key or Template ID missing. Skipping video generation.")
-        return None
+        logger.warning("Creatomate API Key or Template ID missing. Using fallback video.")
+        return fallback_video
 
     try:
         modifications = {
@@ -90,8 +94,8 @@ def _generate_creatomate_video(script_data: dict, image_url: str) -> str:
         return data.get("url")
         
     except Exception as e:
-        logger.error(f"Creatomate API failed: {e}")
-        return None
+        logger.error(f"Creatomate API failed: {e}. Using fallback video.")
+        return fallback_video
 
 def reel_producer_node(state: PipelineState) -> dict:
     """

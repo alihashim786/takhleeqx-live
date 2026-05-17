@@ -30,7 +30,8 @@ logger = logging.getLogger("takhleeqx.agents.trend_scout")
 
 def _call_openai_with_search(prompt: str) -> str:
     """Call GPT-4o with web search enabled for real-time trend data."""
-    client = OpenAI(api_key=settings.OPENAI_API_KEY)
+    api_key = os.environ.get("OPENAI_API_KEY", settings.OPENAI_API_KEY)
+    client = OpenAI(api_key=api_key)
 
     response = client.responses.create(
         model="gpt-4o",
@@ -101,7 +102,8 @@ def trend_scout_node(state: PipelineState) -> dict:
             global_trends=json.dumps(global_trends, indent=2),
         )
 
-        client = OpenAI(api_key=settings.OPENAI_API_KEY)
+        api_key = os.environ.get("OPENAI_API_KEY", settings.OPENAI_API_KEY)
+        client = OpenAI(api_key=api_key)
         synthesis_response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": synthesis_prompt}],

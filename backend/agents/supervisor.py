@@ -10,6 +10,7 @@ other agents. This is a key concept in multi-agent systems: having a
 "manager" agent that reviews subordinate agents' work.
 """
 
+import os
 import json
 import logging
 from datetime import datetime, timezone
@@ -169,7 +170,8 @@ def supervisor_node(state: PipelineState) -> dict:
             published_count=len(published),
         )
 
-        client = OpenAI(api_key=settings.OPENAI_API_KEY)
+        api_key = os.environ.get("OPENAI_API_KEY", settings.OPENAI_API_KEY)
+        client = OpenAI(api_key=api_key)
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}],

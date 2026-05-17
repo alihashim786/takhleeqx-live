@@ -23,15 +23,18 @@ logger = logging.getLogger("takhleeqx.agents.visual_designer")
 
 
 def _generate_image(prompt: str, post_id: int) -> dict:
-    """Generate a single image using OpenAI gpt-image-1 and save locally."""
-    client = OpenAI(api_key=settings.OPENAI_API_KEY)
+    """Generate a single image using OpenAI dall-e-3 and save locally."""
+    # Use dynamically injected key from os.environ, fallback to settings
+    api_key = os.environ.get("OPENAI_API_KEY", settings.OPENAI_API_KEY)
+    client = OpenAI(api_key=api_key)
 
     try:
         response = client.images.generate(
-            model="gpt-image-1",
+            model="dall-e-3",
             prompt=prompt,
             size="1024x1024",
             n=1,
+            response_format="b64_json"
         )
 
         # gpt-image-1 returns base64 data, not a URL
