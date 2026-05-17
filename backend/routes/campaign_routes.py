@@ -101,6 +101,7 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
     """Run a simulated pipeline using hardcoded data for demonstration."""
     try:
         import os
+        from backend.models import Post
         restaurant = db_session.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
         r_name = restaurant.name.replace(" ", "_") if restaurant else "KFC"
         base_dir = f"campaign_exports/{r_name}"
@@ -109,46 +110,41 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
 
         def _read_json(filename):
             try:
-                with open(os.path.join(base_dir, filename), "r") as f:
-                    return f.read()
+                with open(os.path.join(base_dir, filename), "r", encoding="utf-8") as f:
+                    return json.load(f)
             except:
-                return "{}"
+                return {}
         
-        trends_json = _read_json("trends.json")
-        strategy_json = _read_json("strategy.json")
+        trends_data = _read_json("trends.json")
+        strategy_data = _read_json("strategy.json")
         predicted_analytics = _read_json("analytics_prediction.json")
         
         # Parse supervisor review
-        supervisor_notes_str = _read_json("supervisor_review.json")
         try:
-            supervisor_notes = json.loads(supervisor_notes_str).get("feedback", "Excellent campaign.")
+            with open(os.path.join(base_dir, "supervisor_review.json"), "r", encoding="utf-8") as f:
+                content = f.read()
+                try:
+                    supervisor_notes = json.loads(content).get("feedback", "Excellent campaign.")
+                except:
+                    supervisor_notes = content
         except:
-            supervisor_notes = supervisor_notes_str
+            supervisor_notes = "Excellent campaign."
 
         # Parse posts
-        try:
-            with open(os.path.join(base_dir, "content_writer_output.json"), "r") as f:
-                posts_data = json.load(f)
-        except:
+        posts_data = _read_json("content_writer_output.json")
+        if not isinstance(posts_data, list):
             posts_data = []
-
-        images_dir = os.path.join(base_dir, "images")
-        image_files = sorted(os.listdir(images_dir)) if os.path.exists(images_dir) else []
-        
-        for i, post in enumerate(posts_data):
-            post["type"] = "image"
-            if i < len(image_files):
-                # Using /campaign_exports/ mount configured in main.py
-                post["media_url"] = f"/{base_dir}/images/{image_files[i]}"
-            else:
-                post["media_url"] = ""
 
         # Create new campaign in DB
         new_campaign = Campaign(
             restaurant_id=restaurant_id,
-            trends_json=trends_json,
-            strategy_json=strategy_json,
-            posts_json=json.dumps(posts_data),
+            campaign_name=strategy_data.get("campaign_name", f"Mock Campaign for {r_name}"),
+            target_audience=strategy_data.get("target_audience", ""),
+            tone=strategy_data.get("tone", ""),
+            content_pillars=strategy_data.get("content_pillars", []),
+            posting_schedule=strategy_data.get("posting_schedule", {}),
+            trends_data=trends_data,
+            strategy_data=strategy_data,
             status="published",
             quality_score=85,
             supervisor_notes=supervisor_notes,
@@ -157,6 +153,31 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
         db_session.add(new_campaign)
         db_session.commit()
         db_session.refresh(new_campaign)
+
+        # Create Posts
+        images_dir = os.path.join(base_dir, "images")
+        image_files = sorted(os.listdir(images_dir)) if os.path.exists(images_dir) else []
+        
+        for i, post in enumerate(posts_data):
+            image_url = None
+            if i < len(image_files):
+                image_url = f"/{base_dir}/images/{image_files[i]}"
+
+            db_post = Post(
+                campaign_id=new_campaign.id,
+                caption=post.get("caption", ""),
+                hashtags=post.get("hashtags", []),
+                cta=post.get("cta", ""),
+                platform="instagram",
+                image_url=image_url,
+                video_url=None,
+                content_pillar=post.get("content_pillar", ""),
+                is_published=True,
+                published_at=datetime.now(timezone.utc)
+            )
+            db_session.add(db_post)
+        
+        db_session.commit()
 
         logs = [
             {"agent_name": "Pipeline", "status": "running", "message": "Initializing Mock Mode...", "timestamp": datetime.now(timezone.utc).isoformat()},
@@ -176,7 +197,11 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
         }
     except Exception as e:
         logger.error(f"Mock pipeline failed: {str(e)}")
-        pipeline_status_store[status_key] = {"status": "failed", "error": str(e)}
+        pipeline_status_store[status_key] = {
+            "status": "failed", 
+            "error": str(e),
+            "logs": [{"agent_name": "Pipeline", "status": "failed", "message": f"Error: {str(e)}", "timestamp": datetime.now(timezone.utc).isoformat()}]
+        }
     finally:
         db_session.close()
 

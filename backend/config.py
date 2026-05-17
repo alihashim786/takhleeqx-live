@@ -34,9 +34,14 @@ class Settings(BaseSettings):
     # Image generation
     IMAGE_OUTPUT_DIR: str = "generated_images"
 
+    # Email Notifications
+    RESEND_API_KEY: str | None = None
+    ADMIN_EMAIL: str | None = None
+
     class Config:
         env_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
         env_file_encoding = "utf-8"
+        extra = "ignore"
 
 
 @lru_cache()
