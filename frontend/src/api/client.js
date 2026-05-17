@@ -3,7 +3,7 @@
  */
 import axios from 'axios';
 
-const API_BASE = '/api';
+const API_BASE = 'https://takhleeqx-live.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE,
@@ -14,7 +14,7 @@ const api = axios.create({
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('takhleeqx_token');
   const openaiKey = localStorage.getItem('takhleeqx_openai_key');
-  
+
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
