@@ -18,7 +18,19 @@ export default function SocialFeed() {
   const loadFeed = async () => {
     try {
       const res = await api.get('/feed/');
-      setPosts(res.data);
+      
+      // Separate posts that contain both an image and a video into two distinct posts in the feed
+      const splitPosts = [];
+      res.data.forEach(post => {
+        if (post.image_url && post.video_url) {
+          splitPosts.push({ ...post, video_url: null, id: `${post.id}_image` });
+          splitPosts.push({ ...post, image_url: null, id: `${post.id}_video` });
+        } else {
+          splitPosts.push(post);
+        }
+      });
+      
+      setPosts(splitPosts);
     } catch (err) {
       console.error('Failed to load feed:', err);
     } finally {
@@ -86,6 +98,8 @@ export default function SocialFeed() {
             <div key={post.id} className="aspect-square relative group cursor-pointer bg-surface-card animate-fade-in">
               {post.image_url ? (
                 <img src={post.image_url} alt={post.alt_text} className="w-full h-full object-cover" />
+              ) : post.video_url ? (
+                <video src={post.video_url} className="w-full h-full object-cover" autoPlay loop muted playsInline />
               ) : (
                 <div className="w-full h-full flex items-center justify-center gradient-primary opacity-40">
                   <span className="text-4xl">🎨</span>
