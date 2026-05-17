@@ -100,20 +100,59 @@ def _run_pipeline_background(restaurant_id: int, user_id: int, status_key: str, 
 async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status_key: str, db_session):
     """Run a simulated pipeline using hardcoded data for demonstration."""
     try:
-        # Load mock campaign data
-        with open("backend/mock_campaign.json", "r") as f:
-            mock_data = json.load(f)
+        import os
+        restaurant = db_session.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
+        r_name = restaurant.name.replace(" ", "_") if restaurant else "KFC"
+        base_dir = f"campaign_exports/{r_name}"
+        if not os.path.exists(base_dir):
+            base_dir = "campaign_exports/KFC"
+
+        def _read_json(filename):
+            try:
+                with open(os.path.join(base_dir, filename), "r") as f:
+                    return f.read()
+            except:
+                return "{}"
+        
+        trends_json = _read_json("trends.json")
+        strategy_json = _read_json("strategy.json")
+        predicted_analytics = _read_json("analytics_prediction.json")
+        
+        # Parse supervisor review
+        supervisor_notes_str = _read_json("supervisor_review.json")
+        try:
+            supervisor_notes = json.loads(supervisor_notes_str).get("feedback", "Excellent campaign.")
+        except:
+            supervisor_notes = supervisor_notes_str
+
+        # Parse posts
+        try:
+            with open(os.path.join(base_dir, "content_writer_output.json"), "r") as f:
+                posts_data = json.load(f)
+        except:
+            posts_data = []
+
+        images_dir = os.path.join(base_dir, "images")
+        image_files = sorted(os.listdir(images_dir)) if os.path.exists(images_dir) else []
+        
+        for i, post in enumerate(posts_data):
+            post["type"] = "image"
+            if i < len(image_files):
+                # Using /campaign_exports/ mount configured in main.py
+                post["media_url"] = f"/{base_dir}/images/{image_files[i]}"
+            else:
+                post["media_url"] = ""
 
         # Create new campaign in DB
         new_campaign = Campaign(
             restaurant_id=restaurant_id,
-            trends_json=mock_data.get("trends_json", "{}"),
-            strategy_json=mock_data.get("strategy_json", "{}"),
-            posts_json=mock_data.get("posts_json", "[]"),
+            trends_json=trends_json,
+            strategy_json=strategy_json,
+            posts_json=json.dumps(posts_data),
             status="published",
-            quality_score=mock_data.get("quality_score", 85),
-            supervisor_notes=mock_data.get("supervisor_notes", ""),
-            predicted_analytics=mock_data.get("predicted_analytics", "{}"),
+            quality_score=85,
+            supervisor_notes=supervisor_notes,
+            predicted_analytics=predicted_analytics,
         )
         db_session.add(new_campaign)
         db_session.commit()
