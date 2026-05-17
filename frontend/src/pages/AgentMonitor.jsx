@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import api from '../api/client';
 import AgentCard from '../components/AgentCard';
-import { Activity, CheckCircle2, AlertCircle, ArrowRight, TrendingUp, Compass, FileText, Lightbulb, Hash, MousePointerClick } from 'lucide-react';
+import { Activity, CheckCircle2, AlertCircle, ArrowRight, TrendingUp, Compass, FileText, Lightbulb, Hash, MousePointerClick, X } from 'lucide-react';
 
 const AGENTS = [
   { id: 'trend_scout', name: 'Trend Scout', description: 'Searching Pakistani & global trends using GPT-4o with web search', icon: '🔍' },
@@ -29,6 +29,7 @@ export default function AgentMonitor() {
   const [logs, setLogs] = useState([]);
   const [expandedSections, setExpandedSections] = useState({});
   const pollingRef = useRef(null);
+  const [showMockInfo, setShowMockInfo] = useState(() => !localStorage.getItem('takhleeqx_openai_key'));
 
   const toggleSection = (section) => {
     setExpandedSections(prev => ({ ...prev, [section]: !prev[section] }));
@@ -108,6 +109,38 @@ export default function AgentMonitor() {
           {status?.status === 'idle' && 'Pipeline is idle. Launch a campaign from Onboarding.'}
         </p>
       </div>
+
+      {/* Mock Mode Instruction Box */}
+      {showMockInfo && (
+        <div className="mb-8 p-6 bg-accent/10 border border-accent/30 rounded-2xl relative animate-fade-in">
+          <button onClick={() => setShowMockInfo(false)} className="absolute top-4 right-4 text-accent hover:text-accent-light">
+            <X className="w-5 h-5" />
+          </button>
+          <div className="flex items-start gap-4">
+            <div className="p-3 bg-accent/20 rounded-xl shrink-0 mt-1">
+              <Activity className="w-6 h-6 text-accent" />
+            </div>
+            <div>
+              <h3 className="font-bold text-text-primary text-lg">Live Execution Simulator</h3>
+              <p className="text-text-muted mt-2 text-sm leading-relaxed">
+                If an API Key was provided, the agents shown below would actively connect to LLMs and image/video generators 
+                to build your campaign from scratch in real-time. 
+              </p>
+              <p className="text-text-muted mt-2 text-sm leading-relaxed">
+                Because you are in <strong className="text-accent ml-1">Demo Mode</strong> with no API credits, we are fast-tracking the pipeline by securely restoring a previously executed, high-quality campaign. 
+                All agent logs and outputs below are genuine artifacts from a real execution!
+              </p>
+              <p className="text-text-primary font-medium mt-3 text-sm flex items-center gap-2">
+                <ArrowRight className="w-4 h-4 text-accent" />
+                Proceed to the Social Feed, Analytics, and Campaign tabs to explore the results!
+              </p>
+              <button onClick={() => setShowMockInfo(false)} className="mt-4 px-5 py-2 bg-accent text-white rounded-lg text-sm font-semibold hover:bg-accent-light transition-colors">
+                OK, Got it!
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Overall Status Banner */}
       {status && status.status !== 'idle' && (

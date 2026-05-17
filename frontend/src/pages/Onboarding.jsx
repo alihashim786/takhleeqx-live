@@ -103,6 +103,7 @@ export default function Onboarding() {
   };
 
   const freqInfo = confirmModal ? FREQUENCY_MAP[confirmModal.posting_frequency] || FREQUENCY_MAP['Daily'] : null;
+  const [showMockInfo, setShowMockInfo] = useState(() => !localStorage.getItem('takhleeqx_openai_key'));
 
   return (
     <div className="max-w-5xl mx-auto">
@@ -114,6 +115,34 @@ export default function Onboarding() {
         </h1>
         <p className="text-text-muted mt-2">Set up your restaurant profile to generate AI-powered marketing campaigns</p>
       </div>
+
+      {/* Mock Mode Instruction Box */}
+      {showMockInfo && (
+        <div className="mb-8 p-6 bg-primary/10 border border-primary/30 rounded-2xl relative animate-fade-in">
+          <button onClick={() => setShowMockInfo(false)} className="absolute top-4 right-4 text-primary hover:text-primary-light">
+            <X className="w-5 h-5" />
+          </button>
+          <div className="flex items-start gap-4">
+            <div className="p-3 bg-primary/20 rounded-xl shrink-0 mt-1">
+              <Store className="w-6 h-6 text-primary" />
+            </div>
+            <div>
+              <h3 className="font-bold text-text-primary text-lg">Welcome to the TakhleeqX Demo!</h3>
+              <p className="text-text-muted mt-2 text-sm leading-relaxed">
+                Since no OpenAI API Key was provided during login (due to missing API credits), the app is running in 
+                <strong className="text-primary-light ml-1">Demo Mode</strong>. Instead of running costly LLM agents, 
+                we are providing fully pre-generated campaigns for <strong>KFC</strong> and <strong>Keetli</strong> below.
+              </p>
+              <p className="text-text-muted mt-2 text-sm leading-relaxed">
+                Click <strong>"Launch Campaign"</strong> on either restaurant below to simulate the AI agent pipeline and instantly view the incredible generated content!
+              </p>
+              <button onClick={() => setShowMockInfo(false)} className="mt-4 px-5 py-2 bg-primary text-white rounded-lg text-sm font-semibold hover:bg-primary-light transition-colors">
+                OK, Got it!
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Existing Restaurants */}
       {restaurants.length > 0 && (
