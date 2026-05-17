@@ -34,7 +34,7 @@ export default function PostCard({ post, restaurantName = 'TakhleeqX Restaurant'
       <div className="relative aspect-square bg-surface-light group">
         {/* Toggle buttons if both exist */}
         {post.video_url && post.image_url && (
-          <div className="absolute top-2 right-2 z-10 flex gap-1 bg-black/50 backdrop-blur-md p-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity">
+          <div className="absolute top-2 right-2 z-10 flex gap-1 bg-black/50 backdrop-blur-md p-1 rounded-lg transition-opacity">
             <button
               onClick={() => setViewMode('image')}
               className={`px-2 py-1 text-xs font-medium rounded ${viewMode === 'image' ? 'bg-white text-black' : 'text-white hover:bg-white/20'}`}

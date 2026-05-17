@@ -118,6 +118,33 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
         trends_data = _read_json("trends.json")
         strategy_data = _read_json("strategy.json")
         predicted_analytics = _read_json("analytics_prediction.json")
+        if not predicted_analytics:
+            # Fallback mock analytics if the file returns null or empty
+            first_pillar = strategy_data.get("content_pillars", [{"pillar_name": "General"}])[0]
+            pillar_name = first_pillar.get("pillar_name") if isinstance(first_pillar, dict) else str(first_pillar)
+            
+            predicted_analytics = {
+                "predicted_reach": 125000,
+                "predicted_impressions": 185000,
+                "predicted_engagement_rate": 8.5,
+                "predicted_profile_visits": 12400,
+                "predicted_saves": 4500,
+                "predicted_shares": 3200,
+                "top_performing_pillar": pillar_name,
+                "platform_breakdown": {
+                    "instagram": {"reach": 85000, "engagement": 9.2},
+                    "facebook": {"reach": 40000, "engagement": 6.8}
+                },
+                "weekly_growth_prediction": {
+                    "followers_gained": 1200,
+                    "viral_potential": "high"
+                },
+                "recommendations": [
+                    "Post Reels during evening peak hours for maximum visibility.",
+                    "Use suggested trending audio to increase viral chances.",
+                    "Engage with comments within the first hour of posting to boost algorithm reach."
+                ]
+            }
         
         # Parse supervisor review
         try:
