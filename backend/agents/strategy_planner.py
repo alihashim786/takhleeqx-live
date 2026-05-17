@@ -10,6 +10,7 @@ into an actionable plan that Agent 3 (Content Writer) can execute, showing
 how agents collaborate through shared state.
 """
 
+import os
 import json
 import logging
 from datetime import datetime, timezone
