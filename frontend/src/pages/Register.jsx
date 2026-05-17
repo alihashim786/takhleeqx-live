@@ -20,6 +20,14 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+
+    // Email validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@(gmail|email|outlook|hotmail)\.[a-zA-Z]{2,}$/i;
+    if (!emailRegex.test(form.email)) {
+      setError('Please enter a valid email address ending with @gmail, @email, @outlook, or @hotmail domain.');
+      return;
+    }
+
     setLoading(true);
     localStorage.setItem('takhleeqx_openai_key', openaiKey);
     try {

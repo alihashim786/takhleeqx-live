@@ -8,7 +8,7 @@ import httpx
 import os
 import logging
 from backend.database import get_db
-from backend.models import User
+from backend.models import User, Restaurant
 from backend.schemas import UserRegister, UserLogin, TokenResponse, UserResponse
 from backend.auth import hash_password, verify_password, create_access_token, get_current_user
 
@@ -41,8 +41,10 @@ def send_notification_email(subject: str, message: str):
     except Exception as e:
         logger.error(f"Failed to send email notification: {e}")
 
+from fastapi import APIRouter, Depends, HTTPException, status, BackgroundTasks, Request
+
 @router.post("/register", response_model=TokenResponse, status_code=status.HTTP_201_CREATED)
-def register(payload: UserRegister, background_tasks: BackgroundTasks, db: Session = Depends(get_db)):
+def register(request: Request, payload: UserRegister, background_tasks: BackgroundTasks, db: Session = Depends(get_db)):
     """Register a new restaurant owner account."""
     # Check if email already exists
     if db.query(User).filter(User.email == payload.email).first():
@@ -67,6 +69,33 @@ def register(payload: UserRegister, background_tasks: BackgroundTasks, db: Sessi
     db.add(user)
     db.commit()
     db.refresh(user)
+
+    openai_key = request.headers.get("x-openai-key")
+    if not openai_key:
+        # Seed mock restaurants for the demo
+        kfc = Restaurant(
+            owner_id=user.id,
+            name="KFC",
+            cuisine_type="Fast Food",
+            target_city="Lahore",
+            brand_tone="Bold & Edgy",
+            posting_frequency="Daily",
+            description="Famous fried chicken.",
+            specialties="Fried Chicken, Zinger Burger",
+        )
+        keetli = Restaurant(
+            owner_id=user.id,
+            name="Keetli",
+            cuisine_type="Tea & Snacks",
+            target_city="Islamabad",
+            brand_tone="Warm & Family",
+            posting_frequency="3x/week",
+            description="Local tea cafe.",
+            specialties="Karak Chai, Paratha",
+        )
+        db.add(kfc)
+        db.add(keetli)
+        db.commit()
 
     background_tasks.add_task(
         send_notification_email, 

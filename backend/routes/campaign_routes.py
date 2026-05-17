@@ -100,24 +100,6 @@ def _run_pipeline_background(restaurant_id: int, user_id: int, status_key: str, 
 async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status_key: str, db_session):
     """Run a simulated pipeline using hardcoded data for demonstration."""
     try:
-        pipeline_status_store[status_key] = {"status": "running", "current_agent": "trend_scout", "logs": [{"agent_name": "Pipeline", "status": "running", "message": "Initializing Mock Mode...", "timestamp": datetime.now(timezone.utc).isoformat()}]}
-        await asyncio.sleep(2)
-        pipeline_status_store[status_key]["logs"].append({"agent_name": "Trend Scout", "status": "done", "message": "Mock trends identified.", "timestamp": datetime.now(timezone.utc).isoformat()})
-        pipeline_status_store[status_key]["current_agent"] = "strategy_planner"
-        await asyncio.sleep(2)
-        pipeline_status_store[status_key]["logs"].append({"agent_name": "Strategy Planner", "status": "done", "message": "Mock strategy generated.", "timestamp": datetime.now(timezone.utc).isoformat()})
-        pipeline_status_store[status_key]["current_agent"] = "content_writer"
-        await asyncio.sleep(2)
-        pipeline_status_store[status_key]["logs"].append({"agent_name": "Content Writer", "status": "done", "message": "Mock captions generated.", "timestamp": datetime.now(timezone.utc).isoformat()})
-        pipeline_status_store[status_key]["current_agent"] = "visual_designer"
-        await asyncio.sleep(2)
-        pipeline_status_store[status_key]["logs"].append({"agent_name": "Visual Designer", "status": "done", "message": "Mock images created.", "timestamp": datetime.now(timezone.utc).isoformat()})
-        pipeline_status_store[status_key]["current_agent"] = "reel_producer"
-        await asyncio.sleep(2)
-        pipeline_status_store[status_key]["logs"].append({"agent_name": "Reel Producer", "status": "done", "message": "Mock reels rendered.", "timestamp": datetime.now(timezone.utc).isoformat()})
-        pipeline_status_store[status_key]["current_agent"] = "campaign_publisher"
-        await asyncio.sleep(1)
-
         # Load mock campaign data
         with open("backend/mock_campaign.json", "r") as f:
             mock_data = json.load(f)
@@ -137,11 +119,21 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
         db_session.commit()
         db_session.refresh(new_campaign)
 
+        logs = [
+            {"agent_name": "Pipeline", "status": "running", "message": "Initializing Mock Mode...", "timestamp": datetime.now(timezone.utc).isoformat()},
+            {"agent_name": "Trend Scout", "status": "done", "message": "Mock trends identified.", "timestamp": datetime.now(timezone.utc).isoformat()},
+            {"agent_name": "Strategy Planner", "status": "done", "message": "Mock strategy generated.", "timestamp": datetime.now(timezone.utc).isoformat()},
+            {"agent_name": "Content Writer", "status": "done", "message": "Mock captions generated.", "timestamp": datetime.now(timezone.utc).isoformat()},
+            {"agent_name": "Visual Designer", "status": "done", "message": "Mock images created.", "timestamp": datetime.now(timezone.utc).isoformat()},
+            {"agent_name": "Reel Producer", "status": "done", "message": "Mock reels rendered.", "timestamp": datetime.now(timezone.utc).isoformat()},
+            {"agent_name": "Campaign Publisher", "status": "done", "message": "Campaign published successfully.", "timestamp": datetime.now(timezone.utc).isoformat()}
+        ]
+
         pipeline_status_store[status_key] = {
             "status": "completed",
             "current_agent": "completed",
             "campaign_id": new_campaign.id,
-            "logs": pipeline_status_store[status_key]["logs"],
+            "logs": logs,
         }
     except Exception as e:
         logger.error(f"Mock pipeline failed: {str(e)}")
