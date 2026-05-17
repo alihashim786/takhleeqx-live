@@ -1,0 +1,32 @@
+# TakhleeqX Backend Dependencies
+# ================================
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Authentication
+passlib[bcrypt]>=1.7.4
+PyJWT>=2.8.0
+python-multipart>=0.0.6
+
+# Pydantic
+pydantic>=2.0.0
+pydantic-settings>=2.1.0
+email-validator>=2.1.0
+
+# AI/LLM Framework
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+openai>=1.30.0
+
+# Utilities
+python-dotenv>=1.0.0
+httpx>=0.25.0
+sse-starlette>=1.6.0
+Pillow>=10.0.0
+aiofiles>=23.0.0

@@ -1,0 +1,51 @@
+{
+  "campaign_name": "Agent Zinger: Islamabad Mission",
+  "target_audience": "Young adults (18-35) in Islamabad, food enthusiasts, social media savvy individuals, fans of fast food and humorous content.",
+  "tone": "Bold, edgy, and humorous with a playful espionage twist",
+  "campaign_duration": "1 month",
+  "content_pillars": [
+    {
+      "pillar_name": "Espionage Reels",
+      "description": "Engage audiences with 'Agent Zinger' reels, where influencers and customers act out missions to discover the secret behind the ZingerBurger.",
+      "post_count": 1,
+      "example_topic": "Reel featuring an influencer going undercover as an 'Agent Zinger' to find out what makes the ZingerBurger so irresistible."
+    },
+    {
+      "pillar_name": "Resilience Challenges",
+      "description": "Highlight the durability and consistency of KFC's offerings through fun challenges.",
+      "post_count": 1,
+      "example_topic": "Video challenge of a ZingerBurger being delivered across Islamabad, showcasing its perfect condition upon arrival."
+    },
+    {
+      "pillar_name": "Meme Madness",
+      "description": "Utilize meme culture to create relatable and shareable content that resonates with the youth.",
+      "post_count": 1,
+      "example_topic": "Meme featuring 'Agent Zinger' in a humorous situation, capturing the bold flavors of KFC."
+    },
+    {
+      "pillar_name": "Flashback Features",
+      "description": "Combine nostalgia with current trends to engage audiences through retro-themed content.",
+      "post_count": 1,
+      "example_topic": "Instagram post using the Flash filter to showcase a 'then and now' of the ZingerBurger's evolution."
+    }
+  ],
+  "posting_schedule": {
+    "frequency": "3 times per week",
+    "best_times": [
+      "Wednesday 6 PM",
+      "Friday 7 PM",
+      "Sunday 5 PM"
+    ],
+    "platforms": [
+      "Instagram",
+      "Facebook"
+    ]
+  },
+  "key_messages": [
+    "Discover the secret behind the ZingerBurger",
+    "Experience the resilience of KFC's bold flavors",
+    "Join the 'Agent Zinger' mission and share your story"
+  ],
+  "hashtag_strategy": "Use a mix of campaign-specific hashtags like #AgentZinger, #ZingerMission, and general food hashtags like #KFCIslamabad, #ZingerBurger, to increase reach and engagement.",
+  "visual_style": "Bold and vibrant colors with a focus on red and white (KFC's signature colors), incorporating spy-themed elements like magnifying glasses and top-secret stamps, with a mix of retro and modern aesthetics."
+}

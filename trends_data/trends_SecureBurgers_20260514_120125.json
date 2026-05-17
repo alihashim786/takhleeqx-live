@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Bong Paya Aesthetic",
+            "description": "TikTok users are sharing early morning vlogs featuring traditional winter dishes like nihari and halwa puri, emphasizing the ambiance of foggy streets and longstanding eateries.",
+            "relevance_to_food": "Restaurants can create similar atmospheric content showcasing their signature dishes to attract food enthusiasts.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Drama Scene Re-enactments",
+            "description": "Users are recreating famous dialogues from popular TV dramas, adding humorous twists by changing settings or using green screen effects.",
+            "relevance_to_food": "Restaurants can participate by reenacting scenes with staff, incorporating their menu items to engage with the trend.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Crumble Pakistan's Meme Marketing",
+            "description": "The dessert brand 'Crumble Pakistan' has gained attention for its meme-centric marketing, blending humor with product promotion.",
+            "relevance_to_food": "Other food businesses can adopt a similar approach by integrating relatable memes into their marketing strategies.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Chahat Fateh Ali Khan's Viral Performances",
+            "description": "The internet sensation Chahat Fateh Ali Khan continues to captivate audiences with his unique musical performances and eccentric style.",
+            "relevance_to_food": "Restaurants can collaborate with viral personalities like Chahat to create engaging content or host events.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "US Vlogger's Pakistani Street Food Tour",
+            "description": "A US-based vlogger's exploration of Lahore's street food scene has amused and engaged internet users.",
+            "relevance_to_food": "Local eateries can invite influencers for food tours to showcase their offerings to a broader audience.",
+            "virality_score": 7,
+            "platform": "YouTube"
+        },
+        {
+            "title": "Pakistani Snack Names Resembling Global Brands",
+            "description": "A viral video highlighting local snack names that mimic global brands has entertained viewers.",
+            "relevance_to_food": "Restaurants can playfully create dishes with names inspired by popular global items to attract attention.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Biryani Searches on TikTok",
+            "description": "Biryani has become one of the most searched food items on TikTok in Pakistan, reflecting its enduring popularity.",
+            "relevance_to_food": "Restaurants can capitalize on this trend by sharing their unique biryani recipes or hosting biryani-themed events.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Fast Food Culture Evolution",
+            "description": "The rise of global fast-food franchises in Pakistan has influenced local consumption patterns and culinary identities.",
+            "relevance_to_food": "Local restaurants can differentiate by emphasizing traditional flavors or offering fusion dishes that blend global and local cuisines.",
+            "virality_score": 6,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Mahira Khan's Cultural Influence",
+            "description": "Actress Mahira Khan continues to shape public taste through her performances and lifestyle ventures.",
+            "relevance_to_food": "Restaurants can collaborate with celebrities like Mahira for endorsements or themed events to attract fans.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Momin Saqib's 'Maro Mujhe Maro' Meme Resurgence",
+            "description": "The iconic 'Maro Mujhe Maro' meme by Momin Saqib has resurfaced, symbolizing collective emotional expressions.",
+            "relevance_to_food": "Restaurants can use this meme in marketing campaigns to connect with customers on a humorous level.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "The Wrong Name Loophole",
+            "description": "A humorous meme where individuals pretend to mishear critiques directed at them by attributing them to someone else with a similar-sounding name.",
+            "format_description": "Create a video showing yourself engaging in an activity you're often criticized for, overlay text with a misheard name that sounds like the critique, and use the audio 'son original' by LePtitMilo.",
+            "adaptability_for_restaurants": "Restaurants can showcase staff humorously 'mishearing' common customer complaints, turning them into lighthearted content that humanizes the brand.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Take Her Swimming on the First Date",
+            "description": "A trend where individuals demonstrate the durability of their makeup by submerging themselves in water, challenging the notion that makeup washes off easily.",
+            "format_description": "Apply a full face of makeup, record yourself diving into a pool, and emerge to show the makeup's resilience, set to 'Stateside' by PinkPantheress and Zara Larsson.",
+            "adaptability_for_restaurants": "Restaurants can highlight the durability of their dishes by playfully 'dunking' them in sauces or liquids, emphasizing quality and presentation.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "A content format where creators share experiences from their point of view, offering an immersive perspective to the audience.",
+            "format_description": "Film daily activities or events from a first-person perspective, using quick cuts synced to upbeat music to create an engaging narrative.",
+            "adaptability_for_restaurants": "Restaurants can create POV videos of a customer's journey, from entering the establishment to enjoying a meal, providing a virtual dining experience.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "The 'EVERYTHING HALLELUJAH' Listing Format",
+            "description": "A trend where creators list items or experiences they appreciate, set to Justin Bieber's 'EVERYTHING HALLELUJAH,' creating a positive and uplifting vibe.",
+            "format_description": "Compile a list of favorite items or moments, overlay text descriptions, and synchronize the visuals with the beats of the song.",
+            "adaptability_for_restaurants": "Restaurants can showcase their signature dishes or customer favorites in this format, highlighting menu items in an engaging way.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Map Day",
+            "description": "A nostalgic trend where creators use the 'Map Day' song from Tomodachi Life to showcase quirky or humorous scenarios, often with a retro gaming aesthetic.",
+            "format_description": "Create a video with an on-screen title bar featuring an apartment number and name, followed by a humorous or relatable scenario, set to the 'Map Day' track.",
+            "adaptability_for_restaurants": "Restaurants can use this format to introduce staff members or showcase daily specials in a fun, game-like presentation.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Beat It Dance Challenge",
+            "description": "A resurgence of Michael Jackson's 'Beat It' dance, with users recreating the iconic moves following the release of the film 'Michael.'",
+            "format_description": "Learn and perform the 'Beat It' dance routine, record yourself executing the moves, and share the video set to the original track.",
+            "adaptability_for_restaurants": "Restaurants can have staff participate in the dance challenge, adding a fun and energetic element to their social media presence.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Mom, What Were You Like in the 90s?",
+            "description": "A meme where individuals share current photos followed by a slideshow of their 90s photos, set to 'Iris' by the Goo Goo Dolls, highlighting personal transformations.",
+            "format_description": "Start with a present-day photo or video, then transition into a series of 90s photos, all set to the song 'Iris.'",
+            "adaptability_for_restaurants": "Restaurants can showcase their evolution over the years, sharing images of the establishment from the 90s to the present day.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "What's in My Bag Challenge",
+            "description": "A trend where users reveal the contents of their bags, often highlighting quirky or unexpected items, providing insight into their personalities.",
+            "format_description": "Record a video unpacking your bag, showcasing each item with brief explanations, and set it to trending background music.",
+            "adaptability_for_restaurants": "Restaurants can create a 'What's in Our Chef's Bag' series, revealing essential tools or unique ingredients used in their kitchen.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "The Great Meme Reset of 2026",
+            "description": "An internet movement aiming to revive classic memes from the early 2000s, allowing newer generations to experience them.",
+            "format_description": "Recreate or share classic memes like Keyboard Cat or Nyan Cat, adding a modern twist or commentary.",
+            "adaptability_for_restaurants": "Restaurants can incorporate classic memes into their marketing, perhaps by naming dishes after them or creating themed events.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Euphoria Season 3 Reactions",
+            "description": "With the release of HBO's 'Euphoria' Season 3, fans are sharing reactions and creating content inspired by the show's characters and plot twists.",
+            "format_description": "Create reaction videos, character analyses, or skits inspired by 'Euphoria' scenes, using relevant hashtags to join the conversation.",
+            "adaptability_for_restaurants": "Restaurants can craft menu items or cocktails inspired by 'Euphoria' characters, promoting them alongside themed content.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Viral Fun with SecureBurgers",
+        "top_relevant_trends": [
+            {
+                "trend": "Crumble Pakistan's Meme Marketing",
+                "adaptation": "Create humorous memes using SecureBurgers' menu items, especially the Mighty Zinger, and share them on Instagram to engage with a local audience.",
+                "priority": 1
+            },
+            {
+                "trend": "Drama Scene Re-enactments",
+                "adaptation": "Have staff reenact famous Pakistani drama scenes with a playful twist, incorporating the Mighty Zinger, and showcase these on TikTok.",
+                "priority": 2
+            },
+            {
+                "trend": "The 'EVERYTHING HALLELUJAH' Listing Format",
+                "adaptation": "Use Instagram to create a vibrant video featuring SecureBurgers' signature dishes, accompanied by Justin Bieber's 'EVERYTHING HALLELUJAH' to highlight customer favorites in an uplifting way.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Meme Culture",
+            "Drama Reenactments",
+            "Customer Favorites"
+        ],
+        "reasoning": "These trends align well with SecureBurgers' fun and playful brand tone, allowing the restaurant to engage with both local and global audiences. Meme marketing taps into a successful local strategy that resonates with young customers on Instagram. The drama reenactments on TikTok provide a humorous and culturally relevant way to connect with Pakistani audiences. Finally, the 'EVERYTHING HALLELUJAH' format offers a visually appealing method to showcase menu highlights, enhancing customer engagement and brand visibility."
+    }
+}

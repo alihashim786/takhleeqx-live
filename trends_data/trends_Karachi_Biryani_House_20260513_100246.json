@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Pastel Color Palette in Fashion",
+            "description": "The adoption of pastel colors like lavender, mint green, and dusty pink in Pakistani fashion, especially during Eid and summer 2026.",
+            "relevance_to_food": "Restaurants can incorporate pastel-themed decor and tableware to align with this aesthetic, creating a visually appealing dining experience.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Farshi Shalwar Comeback",
+            "description": "The revival of the traditional wide-legged, ankle-grazing Farshi Shalwar, influenced by wedding influencers and period dramas.",
+            "relevance_to_food": "Restaurants can host themed events celebrating traditional attire, encouraging patrons to dress in Farshi Shalwar and offering special menus.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Organza Dupatta with Mirror Work",
+            "description": "The trend of sheer organza dupattas adorned with mirror work, gota borders, and pearl edging.",
+            "relevance_to_food": "Restaurants can use similar fabrics and designs in their interior decor to create a culturally rich ambiance.",
+            "virality_score": 5,
+            "platform": "Instagram"
+        },
+        {
+            "title": "JD Vance Visit Memes",
+            "description": "Pakistani social media users created humorous memes about JD Vance's visit to Islamabad, imagining him in everyday local situations.",
+            "relevance_to_food": "Restaurants can create special dishes or promotions inspired by these memes, attracting customers through humor and current events.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Fuel Crisis Memes",
+            "description": "Amid rising fuel prices, Pakistanis took to social media to share memes expressing their frustrations humorously.",
+            "relevance_to_food": "Restaurants can offer 'fuel-saving' delivery promotions or discounts to attract customers during the crisis.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Zulqarnain Sikandar's Food Vlogs",
+            "description": "Influencer Zulqarnain Sikandar shares humorous TikTok content and daily lifestyle vlogs, including food experiences.",
+            "relevance_to_food": "Restaurants can collaborate with Zulqarnain for reviews or features to reach his extensive audience.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Rana Umair's Food Exploration",
+            "description": "Food blogger Rana Umair shares his culinary adventures, highlighting various eateries and dishes across Pakistan.",
+            "relevance_to_food": "Restaurants can invite Rana Umair for reviews or features to gain exposure among food enthusiasts.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Dananeer Mobeen's Culinary Content",
+            "description": "Influencer Dananeer Mobeen, known for her 'Pawri' meme, shares food-related content with her large following.",
+            "relevance_to_food": "Restaurants can collaborate with Dananeer for promotional content to attract her audience.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "TikTok's 'Gratitude Content' Trend",
+            "description": "A TikTok trend where users share content expressing gratitude, often featuring food and dining experiences.",
+            "relevance_to_food": "Restaurants can encourage patrons to share their dining experiences using this trend, enhancing online visibility.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Euphoria Season 3 Aesthetic",
+            "description": "The release of Euphoria Season 3 influences darker, more emotive aesthetics in content creation.",
+            "relevance_to_food": "Restaurants can adapt their ambiance and marketing materials to reflect this aesthetic, attracting fans of the show.",
+            "virality_score": 5,
+            "platform": "Instagram"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "APT Dance Challenge",
+            "description": "A high-energy dance routine set to ROSE's 'APT.' featuring Bruno Mars, characterized by fun hand clapping and rhythmic moves.",
+            "format_description": "Participants perform the choreographed dance, often adding personal flair, and share their versions on social media platforms.",
+            "adaptability_for_restaurants": "Restaurants can have staff perform the dance in uniform, showcasing the establishment's lively atmosphere, or invite patrons to participate, creating engaging content.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "What's In My Bag?",
+            "description": "Users showcase the contents of their bags, revealing quirky essentials and personal items, often with a humorous or surprising twist.",
+            "format_description": "Creators film themselves unpacking their bags, highlighting each item with brief commentary, and share the video with a catchy soundtrack.",
+            "adaptability_for_restaurants": "Restaurants can create 'What's In Our Chef's Bag?' videos, revealing unique kitchen tools or ingredients, or feature patrons sharing their dining essentials.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Flash Filter Transformations",
+            "description": "Utilizing Instagram's 'Flash' filter to give photos a direct-flash, retro aesthetic reminiscent of late-2000s nightlife photography.",
+            "format_description": "Users apply the 'Flash' filter to their photos, creating before-and-after comparisons to showcase the transformation.",
+            "adaptability_for_restaurants": "Restaurants can use the filter to give their food photography a nostalgic, trendy look, appealing to audiences seeking retro vibes.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Take Her Swimming on the First Date",
+            "description": "A meme-turned-challenge where creators prove their makeup's durability by submerging themselves in water and emerging with intact makeup.",
+            "format_description": "Participants apply a full face of makeup, dive into a pool, and surface to reveal the makeup's resilience, often set to trending music.",
+            "adaptability_for_restaurants": "Restaurants can showcase waterproof menu items or spill-resistant packaging by playfully submerging them and highlighting their durability.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "EVERYTHING HALLELUJAH Listing Format",
+            "description": "A Reels format where creators list items or experiences they're grateful for, set to Justin Bieber's 'EVERYTHING HALLELUJAH.'",
+            "format_description": "Users create videos listing their favorite things, overlaying text on visuals, synchronized to the song's beat.",
+            "adaptability_for_restaurants": "Restaurants can list popular dishes, customer favorites, or staff picks, creating engaging content that highlights their offerings.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Map Day",
+            "description": "A trend inspired by the Tomodachi Life game, where creators use an on-screen title bar with an apartment number and name, followed by a meme.",
+            "format_description": "Users create videos mimicking the game's format, introducing characters or scenarios with the title bar, leading into humorous content.",
+            "adaptability_for_restaurants": "Restaurants can introduce staff members or signature dishes using this format, adding a playful and nostalgic touch to their content.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Beat It Dance Revival",
+            "description": "A resurgence of Michael Jackson's 'Beat It' dance, with users recreating the iconic choreography following the release of the 'Michael' biopic.",
+            "format_description": "Participants learn and perform the 'Beat It' dance routine, often adding modern twists, and share their performances online.",
+            "adaptability_for_restaurants": "Restaurants can host 'Beat It' dance nights or challenges, encouraging patrons and staff to participate, fostering community engagement.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "Creators capture their day from a first-person perspective, offering an immersive experience with quick cuts synced to music.",
+            "format_description": "Users film their activities from their point of view, editing the footage with dynamic cuts and trending audio to create engaging narratives.",
+            "adaptability_for_restaurants": "Restaurants can create POV videos showcasing a day in the life of a chef, a meal's journey from kitchen to table, or a customer's dining experience.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "The Wrong Name Loophole",
+            "description": "A humorous format where creators mishear critiques directed at them as being addressed to someone else with a similar-sounding name.",
+            "format_description": "Users overlay text on videos of themselves engaging in criticized behavior, with captions indicating they misheard the critique as being for someone else.",
+            "adaptability_for_restaurants": "Restaurants can use this format to playfully address common critiques, such as portion sizes or wait times, by humorously 'mishearing' customer feedback.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Great Meme Reset of 2026",
+            "description": "An internet movement where users revive classic memes from the early 2000s, introducing them to newer generations.",
+            "format_description": "Creators share and reinterpret vintage memes like Keyboard Cat and Nyan Cat, often adding modern twists or commentary.",
+            "adaptability_for_restaurants": "Restaurants can incorporate classic memes into their marketing, creating nostalgic content that resonates with a broad audience.",
+            "virality_score": 6,
+            "platform": "Various"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Pastel Party Biryani Fiesta",
+        "top_relevant_trends": [
+            {
+                "trend": "Pastel Color Palette in Fashion",
+                "adaptation": "Karachi Biryani House can host a 'Pastel Party' where the restaurant is decorated in pastel colors, offering pastel-themed tableware and backdrops for Instagrammable moments.",
+                "priority": 1
+            },
+            {
+                "trend": "APT Dance Challenge",
+                "adaptation": "Staff at Karachi Biryani House can perform the APT Dance Challenge in pastel outfits, inviting customers to join the dance for discounts or free add-ons, creating a lively atmosphere and engaging TikTok content.",
+                "priority": 2
+            },
+            {
+                "trend": "Zulqarnain Sikandar's Food Vlogs",
+                "adaptation": "Invite Zulqarnain Sikandar to feature the Pastel Party event, showcasing the festive atmosphere and special biryani dishes, leveraging his TikTok audience for greater reach.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Pastel Aesthetics",
+            "Dance and Fun",
+            "Influencer Collaborations"
+        ],
+        "reasoning": "These trends align with Karachi Biryani House's fun and playful brand tone. The pastel theme taps into local fashion trends, enhancing the dining experience visually. The APT Dance Challenge adds an element of fun and social media engagement, while collaborating with a popular local influencer like Zulqarnain Sikandar ensures wide reach and authentic promotion. This synthesis creates a memorable and shareable experience that resonates both locally and globally."
+    }
+}

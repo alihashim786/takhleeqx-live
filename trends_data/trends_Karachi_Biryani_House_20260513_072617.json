@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "JD Vance Visit Sparks Meme Storm",
+            "description": "The recent visit of JD Vance to Islamabad led to a surge of memes on social media, with users humorously depicting his interactions with Pakistani culture and daily life.",
+            "relevance_to_food": "Restaurants can create themed events or dishes inspired by the memes, engaging customers with humor and current events.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Fuel Crisis Memes",
+            "description": "Amid rising fuel prices, Pakistanis took to social media to share memes highlighting the challenges of daily life during the crisis.",
+            "relevance_to_food": "Restaurants can offer 'fuel crisis specials' or discounts to attract customers looking for affordable dining options during tough times.",
+            "virality_score": 7,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Pastel Color Palette in Fashion",
+            "description": "Pastel colors like lavender, mint green, and dusty pink are dominating Pakistani fashion trends, especially during Eid and summer 2026.",
+            "relevance_to_food": "Restaurants can incorporate pastel-themed decor or menu items to align with the current fashion trend and attract style-conscious customers.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Farshi Shalwar Comeback",
+            "description": "The traditional wide-legged, ankle-grazing Farshi Shalwar is making a resurgence in Pakistani fashion, blending heritage with modern styles.",
+            "relevance_to_food": "Restaurants can host cultural nights where staff wear traditional attire, enhancing the dining experience with a touch of nostalgia.",
+            "virality_score": 5,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Organza Dupatta with Mirror Work",
+            "description": "Sheer organza dupattas adorned with mirror work and gota borders are trending in Pakistani fashion circles.",
+            "relevance_to_food": "Restaurants can use similar fabrics and designs in their interior decor to create an ambiance that resonates with current fashion trends.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Zulqarnain Sikandar's Culinary Vlogs",
+            "description": "Influencer Zulqarnain Sikandar's humorous TikTok content and daily lifestyle vlogs, including culinary experiences, are gaining massive popularity.",
+            "relevance_to_food": "Restaurants can collaborate with influencers like Zulqarnain for reviews or feature them in promotional content to reach a wider audience.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Dananeer Mobeen's Foodie Adventures",
+            "description": "Dananeer Mobeen, known for her 'Pawri' meme, continues to share her culinary adventures, influencing dining trends among her followers.",
+            "relevance_to_food": "Restaurants can invite Dananeer for exclusive tastings or events, leveraging her influence to attract her fanbase.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "TikTok's '2026 is the new 2016' Trend",
+            "description": "A nostalgic trend where users recreate 2016 fashion, music, and online trends, gaining traction on TikTok.",
+            "relevance_to_food": "Restaurants can offer 'throwback' menus featuring popular dishes from 2016, appealing to customers' sense of nostalgia.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Instagram's #FoodPorn Resurgence",
+            "description": "The hashtag #FoodPorn is experiencing a resurgence, with users sharing aesthetically pleasing food photos.",
+            "relevance_to_food": "Restaurants can create visually appealing dishes and encourage customers to share photos using the hashtag, enhancing online visibility.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "TikTok's 'Relatable Horror Lists'",
+            "description": "A trend where users share humorous lists of everyday situations they find horrifying, gaining popularity on TikTok.",
+            "relevance_to_food": "Restaurants can create content highlighting 'horrifying' dining experiences (e.g., running out of a popular dish) in a humorous way to engage customers.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "APT Dance Challenge",
+            "description": "A viral dance challenge inspired by ROSE's single 'APT.' featuring Bruno Mars, characterized by fun hand clapping and rhythmic moves.",
+            "format_description": "Participants perform the choreographed dance to the song 'APT.', often in public spaces or unique settings.",
+            "adaptability_for_restaurants": "Restaurants can have staff perform the dance in uniform, showcasing the dining environment, or invite patrons to participate, sharing the videos on social media to engage the community.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "A content format where creators capture their day from a first-person perspective, offering an immersive experience.",
+            "format_description": "Creators film their activities from their own viewpoint, using quick cuts synced to music, providing a dynamic and engaging narrative.",
+            "adaptability_for_restaurants": "Restaurants can create POV videos showcasing a day in the life of a chef, the journey of a dish from kitchen to table, or a customer's dining experience, giving viewers an inside look at the establishment.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "The 'Wrong Name Loophole' Meme",
+            "description": "A humorous meme where individuals pretend to mishear criticisms directed at them by attributing them to someone with a similar-sounding name.",
+            "format_description": "Users overlay text on videos of themselves engaging in activities they've been criticized for, with captions indicating they thought the criticism was meant for someone else with a similar name.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to playfully address common critiques, such as 'When they say 'you should offer more vegan options' but our name is 'Steakhouse Supreme,' so it's okay.'",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Take Her Swimming on the First Date",
+            "description": "A trend where creators showcase the durability of makeup or products by submerging themselves in water and revealing the results.",
+            "format_description": "Participants apply makeup or use a product, then immerse themselves in water to demonstrate its staying power, often set to trending music.",
+            "adaptability_for_restaurants": "Restaurants can highlight the resilience of their takeout packaging by submerging it in water, showcasing that the food remains intact and appealing, emphasizing quality and durability.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "What's in My Bag Challenge",
+            "description": "A trend where users reveal the contents of their bags, often highlighting quirky or unexpected items.",
+            "format_description": "Creators film themselves unpacking their bags, providing commentary on each item, offering a personal glimpse into their daily essentials.",
+            "adaptability_for_restaurants": "Restaurants can create a 'What's in Our Chef's Bag' video, showcasing unique ingredients or tools used in the kitchen, or a 'What's in Our Delivery Bag' to highlight the care taken in packaging takeout orders.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "AI Alter Ego Challenge",
+            "description": "A challenge where users upload selfies, and AI tools morph them into historical figures or celebrities.",
+            "format_description": "Participants use AI applications to transform their images into different personas, sharing the results with humorous or insightful captions.",
+            "adaptability_for_restaurants": "Restaurants can use this trend to transform images of their signature dishes into historical or celebrity-themed versions, creating engaging content that blends culinary art with popular culture.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Climate Clown Meme",
+            "description": "A meme featuring individuals dressed as clowns, lip-syncing to distorted climate speeches, satirizing inaction on environmental issues.",
+            "format_description": "Creators don clown attire and perform exaggerated lip-syncs to edited versions of climate change speeches, often adding humorous captions.",
+            "adaptability_for_restaurants": "Restaurants can participate by creating content that highlights their sustainable practices, using the meme format to emphasize their commitment to environmental responsibility in a lighthearted manner.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "GRWM + Language Learning Hybrid",
+            "description": "A content format combining 'Get Ready With Me' videos with language learning, where creators teach phrases while preparing for their day.",
+            "format_description": "Creators film themselves getting ready, incorporating language lessons by teaching words or phrases related to their routine, making learning engaging and practical.",
+            "adaptability_for_restaurants": "Restaurants can create 'Get Ready for Service With Me' videos, teaching viewers culinary terms or phrases in different languages, showcasing the multicultural aspects of their cuisine and staff.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "The 'Scanning' Format",
+            "description": "A trend where users 'scan' objects, people, or even themselves, revealing humorous or unexpected 'results' or 'data.'",
+            "format_description": "Participants use a scanning effect or overlay to pretend to scan items, displaying amusing or surprising information as the outcome.",
+            "adaptability_for_restaurants": "Restaurants can create videos 'scanning' menu items to reveal fun facts, calorie counts, or humorous 'personality traits' of dishes, engaging customers with entertaining content.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "The 'Crashing Out' Alarm Wave",
+            "description": "A content format where creators simulate being abruptly awakened by alarms, often leading to humorous or exaggerated reactions.",
+            "format_description": "Users set up scenarios where they are suddenly awakened by loud alarms, capturing their over-the-top responses, sometimes incorporating unexpected twists.",
+            "adaptability_for_restaurants": "Restaurants can use this trend to depict chefs or staff being 'awakened' to start the day's preparations, humorously showcasing the early and energetic start to their culinary operations.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Biryani Bash: A Lively Fusion of Local Flavors and Global Trends",
+        "top_relevant_trends": [
+            {
+                "trend": "Zulqarnain Sikandar's Culinary Vlogs",
+                "adaptation": "Collaborate with Zulqarnain to create a playful video series where he explores the making of Karachi Biryani House's signature biryani, blending humor and culinary expertise.",
+                "priority": 1
+            },
+            {
+                "trend": "APT Dance Challenge",
+                "adaptation": "Host a 'Biryani Dance-Off' where staff and customers participate in the APT Dance Challenge at the restaurant, sharing fun videos on TikTok to engage the community.",
+                "priority": 2
+            },
+            {
+                "trend": "Instagram's #FoodPorn Resurgence",
+                "adaptation": "Create visually stunning biryani presentations that encourage customers to share photos using the #BiryaniPorn hashtag, boosting online visibility and engagement.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Humorous Culinary Exploration",
+            "Dance and Dining Fusion",
+            "Visual Biryani Art"
+        ],
+        "reasoning": "These trends effectively blend local cultural elements with global viral formats, tapping into current interests while highlighting Karachi Biryani House's specialties. Collaborating with a popular local influencer like Zulqarnain can drive engagement and authenticity, while the dance challenge and visually appealing food presentations cater to the playful brand tone, creating a lively and memorable dining experience."
+    }
+}
