@@ -135,6 +135,11 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
         if not isinstance(posts_data, list):
             posts_data = []
 
+        # Parse reels
+        reels_data = _read_json("reels.json")
+        if not isinstance(reels_data, list):
+            reels_data = []
+
         # Create new campaign in DB
         new_campaign = Campaign(
             restaurant_id=restaurant_id,
@@ -157,11 +162,19 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
         # Create Posts
         images_dir = os.path.join(base_dir, "images")
         image_files = sorted(os.listdir(images_dir)) if os.path.exists(images_dir) else []
+        backend_url = "https://takhleeqx-live.onrender.com"
         
         for i, post in enumerate(posts_data):
             image_url = None
             if i < len(image_files):
-                image_url = f"/{base_dir}/images/{image_files[i]}"
+                image_url = f"{backend_url}/{base_dir}/images/{image_files[i]}"
+            
+            video_url = None
+            # Find matching reel if exists (post_id usually starts at 1)
+            for r in reels_data:
+                if str(r.get("post_id", "")) == str(post.get("post_id", "")) or str(r.get("post_id", "")) == str(i + 1):
+                    video_url = r.get("video_url")
+                    break
 
             db_post = Post(
                 campaign_id=new_campaign.id,
@@ -170,7 +183,7 @@ async def _run_mock_pipeline_background(restaurant_id: int, user_id: int, status
                 cta=post.get("cta", ""),
                 platform="instagram",
                 image_url=image_url,
-                video_url=None,
+                video_url=video_url,
                 content_pillar=post.get("content_pillar", ""),
                 is_published=True,
                 published_at=datetime.now(timezone.utc)
