@@ -30,16 +30,19 @@ def _generate_image(prompt: str, post_id: int) -> dict:
 
     try:
         response = client.images.generate(
-            model="dall-e-3",
+            model="gpt-image-2",
             prompt=prompt,
             size="1024x1024",
-            n=1,
-            response_format="b64_json"
+            n=1
         )
 
-        # gpt-image-1 returns base64 data, not a URL
-        image_b64 = response.data[0].b64_json
-        image_bytes = base64.b64decode(image_b64)
+        image_url_remote = response.data[0].url
+        
+        # Download the image from the URL provided by the proxy
+        with httpx.Client() as http_client:
+            image_response = http_client.get(image_url_remote)
+            image_response.raise_for_status()
+            image_bytes = image_response.content
 
         # Save the image locally
         os.makedirs(settings.IMAGE_OUTPUT_DIR, exist_ok=True)
@@ -134,7 +137,7 @@ def visual_designer_node(state: PipelineState) -> dict:
                 {
                     "agent_name": "Visual Designer",
                     "status": "done",
-                    "message": f"Generated {len(visuals)} images using DALL-E 3.",
+                    "message": f"Generated {len(visuals)} images.",
                     "timestamp": timestamp,
                 }
             ],
