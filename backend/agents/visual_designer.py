@@ -54,13 +54,12 @@ def _generate_image(prompt: str, post_id: int) -> dict:
 
         logger.info(f"Image saved: {filepath}")
 
-        # Build the full public URL so Creatomate and the frontend can access it
-        local_url = f"http://localhost:8000/images/{filename}"
-
+        # Provide the remote URL directly so the frontend and Creatomate can access it
+        # without worrying about localhost vs production server URLs
         return {
             "post_id": post_id,
-            "image_url": local_url,
-            "original_url": local_url,
+            "image_url": image_url_remote,
+            "original_url": image_url_remote,
             "alt_text": prompt[:200],
             "filename": filename,
         }
