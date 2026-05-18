@@ -1,7 +1,7 @@
 /**
  * About Us Page — Project documentation and developer profiles.
  */
-import { Mail, Sparkles, Bot, Rocket, Code2, Cpu } from 'lucide-react';
+import { Mail, Sparkles, Bot, Rocket, Code2, Cpu, Phone } from 'lucide-react';
 
 const GithubIcon = ({ className }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -98,7 +98,22 @@ export default function AboutUs() {
 
       {/* The Team */}
       <div>
-        <h2 className="text-2xl font-bold text-text-primary mb-8 text-center">Meet the Developers</h2>
+        <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 bg-primary/10 border border-primary/20 p-6 rounded-2xl">
+          <div>
+            <h2 className="text-2xl font-bold text-text-primary">Meet the Developers</h2>
+            <p className="text-text-muted mt-1">The team behind TakhleeqX</p>
+          </div>
+          <div className="flex items-center gap-4 bg-surface-card px-5 py-3 rounded-xl border border-border">
+            <div className="w-10 h-10 rounded-full gradient-accent flex items-center justify-center">
+              <Phone className="w-5 h-5 text-white" />
+            </div>
+            <div>
+              <p className="text-xs font-semibold text-text-muted uppercase tracking-wider">Restaurant Onboarding & Help</p>
+              <p className="text-sm font-bold text-text-primary">Call Ali: <span className="text-primary-light">+92 300 0000000</span></p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {developers.map((dev, i) => (
             <div key={i} className="card hover:-translate-y-1 transition-transform duration-300">
@@ -113,8 +128,10 @@ export default function AboutUs() {
               
               <div className="flex items-center justify-center gap-3 pt-4 border-t border-border/50">
                 <a 
-                  href={`mailto:${dev.email}`}
-                  title="Email"
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${dev.email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Email via Gmail"
                   className="w-10 h-10 rounded-full bg-surface-light flex items-center justify-center text-text-muted hover:text-primary hover:bg-primary/10 transition-all duration-200"
                 >
                   <Mail className="w-5 h-5" />

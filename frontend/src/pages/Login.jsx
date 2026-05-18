@@ -11,6 +11,7 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [openaiKey, setOpenaiKey] = useState(localStorage.getItem('takhleeqx_openai_key') || '');
   const [showPassword, setShowPassword] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const { login } = useAuth();
@@ -123,6 +124,24 @@ export default function Login() {
               Create one
             </Link>
           </p>
+
+          <div className="mt-6 pt-6 border-t border-border/50 text-center">
+            <button 
+              type="button" 
+              onClick={() => setShowHelp(!showHelp)}
+              className="text-xs text-text-muted hover:text-primary transition-colors font-medium"
+            >
+              Need Help?
+            </button>
+            {showHelp && (
+              <div className="mt-4 p-4 rounded-xl bg-surface-light border border-border text-left text-sm text-text-secondary animate-fade-in">
+                <p className="font-semibold text-text-primary mb-2">Support & Onboarding</p>
+                <p className="mb-1">Contact: Ali Hashim</p>
+                <p className="mb-1">Phone: <span className="text-primary-light">+92 300 0000000</span></p>
+                <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadalihashim514@gmail.com" target="_blank" rel="noopener noreferrer" className="text-primary-light hover:underline">muhammadalihashim514@gmail.com</a></p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
