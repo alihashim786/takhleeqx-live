@@ -11,6 +11,7 @@ import AgentMonitor from './pages/AgentMonitor';
 import Campaign from './pages/Campaign';
 import SocialFeed from './pages/SocialFeed';
 import Analytics from './pages/Analytics';
+import AboutUs from './pages/AboutUs';
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated, loading } = useAuth();
@@ -31,6 +32,7 @@ function AppRoutes() {
         <Route path="campaign" element={<Campaign />} />
         <Route path="feed" element={<SocialFeed />} />
         <Route path="analytics" element={<Analytics />} />
+        <Route path="about" element={<AboutUs />} />
       </Route>
     </Routes>
   );

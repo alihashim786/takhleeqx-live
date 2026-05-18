@@ -84,6 +84,12 @@
   100% { background-position: 200% 0; }
 }
 
+@keyframes float-orb {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.05); }
+  100% { transform: translateY(0) scale(1); }
+}
+
 .animate-fade-in {
   animation: fadeIn 0.5s ease-out forwards;
 }
@@ -102,6 +108,10 @@
 
 .animate-spin-slow {
   animation: spin-slow 3s linear infinite;
+}
+
+.animate-float-orb {
+  animation: float-orb 6s ease-in-out infinite;
 }
 
 /* ─── Glassmorphism ────────────────────────────────────────── */

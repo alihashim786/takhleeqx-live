@@ -43,8 +43,8 @@ export default function Register() {
   return (
     <div className="min-h-screen flex items-center justify-center gradient-hero p-4">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/3 -right-32 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/3 -left-32 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 -right-32 w-96 h-96 bg-primary/20 rounded-full blur-[100px] animate-float-orb" />
+        <div className="absolute bottom-1/3 -left-32 w-96 h-96 bg-accent/20 rounded-full blur-[100px] animate-float-orb" style={{ animationDelay: '3s' }} />
       </div>
 
       <div className="w-full max-w-md relative z-10">
@@ -109,6 +109,14 @@ export default function Register() {
             <Link to="/login" className="text-primary-light hover:text-primary font-medium">Sign in</Link>
           </p>
         </div>
+      </div>
+
+      {/* Footer */}
+      <div className="absolute bottom-6 w-full text-center text-sm text-text-muted z-10 animate-fade-in" style={{ animationDelay: '300ms' }}>
+        Built with ❤️ by the TakhleeqX Team •{' '}
+        <Link to="/about" className="hover:text-primary transition-colors hover:underline">
+          Contact Developers
+        </Link>
       </div>
     </div>
   );

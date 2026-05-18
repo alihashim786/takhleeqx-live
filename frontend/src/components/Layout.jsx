@@ -13,7 +13,8 @@ import {
   LogOut,
   Sparkles,
   PanelLeftClose,
-  PanelLeftOpen
+  PanelLeftOpen,
+  Users
 } from 'lucide-react';
 
 const navItems = [
@@ -22,6 +23,7 @@ const navItems = [
   { to: '/campaign', icon: BarChart3, label: 'Campaign' },
   { to: '/feed', icon: Rss, label: 'Social Feed' },
   { to: '/analytics', icon: PieChart, label: 'Analytics' },
+  { to: '/about', icon: Users, label: 'About Us' },
 ];
 
 export default function Layout() {

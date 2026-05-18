@@ -1,0 +1,115 @@
+/**
+ * About Us Page — Project documentation and developer profiles.
+ */
+import { Mail, Sparkles, Bot, Rocket, Code2, Cpu } from 'lucide-react';
+
+const developers = [
+  {
+    name: 'Ali Hashim',
+    role: 'Lead Developer & Architect',
+    email: 'muhammadalihashim514@gmail.com',
+    description: 'Designed the core multi-agent LLM pipeline and full-stack architecture for TakhleeqX.',
+    avatar: 'A'
+  },
+  {
+    name: 'Ayyan Ahmad',
+    role: 'AI & Backend Developer',
+    email: 'zayanahmad07@gmail.com',
+    description: 'Developed the LLM prompts, agent state management, and integrated external generative APIs.',
+    avatar: 'A'
+  },
+  {
+    name: 'Hamza Jaffer',
+    role: 'Frontend & UX Developer',
+    email: 'hamzajaffer49@gmail.com',
+    description: 'Built the stunning, responsive user interface and implemented real-time agent monitoring.',
+    avatar: 'H'
+  }
+];
+
+export default function AboutUs() {
+  return (
+    <div className="max-w-5xl mx-auto space-y-12 pb-12 animate-fade-in">
+      
+      {/* Header */}
+      <div className="text-center space-y-4">
+        <div className="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+          <Sparkles className="w-8 h-8 text-white" />
+        </div>
+        <h1 className="text-4xl font-bold text-text-primary tracking-tight">About TakhleeqX</h1>
+        <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed">
+          The ultimate AI-powered marketing automation platform. Designed to empower Pakistani restaurants by generating agency-quality social media campaigns in minutes.
+        </p>
+      </div>
+
+      {/* The Architecture */}
+      <div className="glass p-8 rounded-3xl">
+        <h2 className="text-2xl font-bold text-text-primary flex items-center gap-3 mb-6">
+          <Cpu className="w-6 h-6 text-primary" />
+          The Multi-Agent Architecture
+        </h2>
+        <p className="text-text-secondary leading-relaxed mb-8">
+          TakhleeqX isn't just a standard wrapper around an AI model. It operates as a sophisticated <strong>Multi-Agent Pipeline</strong> (built with LangGraph and FastAPI), where specialized, autonomous AI agents collaborate to build your campaign from scratch.
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="bg-surface-light p-5 rounded-2xl border border-border/50">
+            <Bot className="w-6 h-6 text-primary mb-3" />
+            <h3 className="font-semibold text-text-primary mb-2">Trend Scout</h3>
+            <p className="text-xs text-text-muted">Searches the web for real-time local Pakistani trends and global viral formats.</p>
+          </div>
+          <div className="bg-surface-light p-5 rounded-2xl border border-border/50">
+            <Rocket className="w-6 h-6 text-accent mb-3" />
+            <h3 className="font-semibold text-text-primary mb-2">Strategy Planner</h3>
+            <p className="text-xs text-text-muted">Analyzes trends and your restaurant profile to build a highly targeted content strategy.</p>
+          </div>
+          <div className="bg-surface-light p-5 rounded-2xl border border-border/50">
+            <Code2 className="w-6 h-6 text-success mb-3" />
+            <h3 className="font-semibold text-text-primary mb-2">Generative Agents</h3>
+            <p className="text-xs text-text-muted">The Content Writer, Visual Designer (DALL-E 3), and Reel Producer work in parallel.</p>
+          </div>
+          <div className="bg-surface-light p-5 rounded-2xl border border-border/50">
+            <Sparkles className="w-6 h-6 text-purple-500 mb-3" />
+            <h3 className="font-semibold text-text-primary mb-2">Supervisor</h3>
+            <p className="text-xs text-text-muted">Evaluates the entire pipeline output, assigning a quality score before publishing.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* The Team */}
+      <div>
+        <h2 className="text-2xl font-bold text-text-primary mb-8 text-center">Meet the Developers</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {developers.map((dev, i) => (
+            <div key={i} className="card hover:-translate-y-1 transition-transform duration-300">
+              <div className="w-16 h-16 rounded-full gradient-primary flex items-center justify-center text-2xl font-bold text-white mb-4 mx-auto shadow-md">
+                {dev.avatar}
+              </div>
+              <h3 className="text-lg font-bold text-text-primary text-center">{dev.name}</h3>
+              <p className="text-sm font-medium text-primary text-center mb-4">{dev.role}</p>
+              <p className="text-sm text-text-secondary text-center mb-6 leading-relaxed">
+                {dev.description}
+              </p>
+              <a 
+                href={`mailto:${dev.email}`}
+                className="flex items-center justify-center gap-2 w-full py-2 bg-surface-hover hover:bg-primary/10 hover:text-primary text-text-muted rounded-xl transition-colors text-sm font-medium"
+              >
+                <Mail className="w-4 h-4" />
+                Contact {dev.name.split(' ')[0]}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Final Note */}
+      <div className="text-center pt-8 border-t border-border">
+        <p className="text-sm text-text-muted">
+          Built with passion as a Final Year Project.<br/>
+          TakhleeqX © {new Date().getFullYear()}
+        </p>
+      </div>
+
+    </div>
+  );
+}
