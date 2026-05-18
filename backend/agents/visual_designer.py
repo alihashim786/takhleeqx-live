@@ -38,11 +38,20 @@ def _generate_image(prompt: str, post_id: int) -> dict:
 
         image_url_remote = response.data[0].url
         
-        # Download the image from the URL provided by the proxy
-        with httpx.Client() as http_client:
-            image_response = http_client.get(image_url_remote)
-            image_response.raise_for_status()
-            image_bytes = image_response.content
+        if not image_url_remote:
+            logger.warning("API returned None for image URL. Using fallback.")
+            image_url_remote = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1024" # Cheesy pizza fallback
+        
+        try:
+            # Download the image from the URL provided by the proxy
+            with httpx.Client(timeout=10.0) as http_client:
+                image_response = http_client.get(image_url_remote)
+                image_response.raise_for_status()
+                image_bytes = image_response.content
+        except Exception as dl_err:
+            logger.warning(f"Failed to download image {dl_err}. Falling back to default URL.")
+            image_url_remote = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1024"
+            image_bytes = b"" # empty bytes if we skip local save
 
         # Save the image locally
         os.makedirs(settings.IMAGE_OUTPUT_DIR, exist_ok=True)
@@ -66,10 +75,13 @@ def _generate_image(prompt: str, post_id: int) -> dict:
 
     except Exception as e:
         logger.error(f"Image generation failed for post {post_id}: {str(e)}")
+        # Provide a fallback image so the frontend UI never breaks during a live demo
+        fallback_url = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1024"
         return {
             "post_id": post_id,
-            "image_url": None,
-            "alt_text": f"Image generation failed: {str(e)}",
+            "image_url": fallback_url,
+            "original_url": fallback_url,
+            "alt_text": f"Image generation failed, using fallback. Error: {str(e)}",
             "error": str(e),
         }
 
