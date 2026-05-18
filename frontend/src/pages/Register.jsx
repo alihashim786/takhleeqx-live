@@ -110,14 +110,6 @@ export default function Register() {
           </p>
         </div>
       </div>
-
-      {/* Footer */}
-      <div className="absolute bottom-6 w-full text-center text-sm text-text-muted z-10 animate-fade-in" style={{ animationDelay: '300ms' }}>
-        Built with ❤️ by the TakhleeqX Team •{' '}
-        <Link to="/about" className="hover:text-primary transition-colors hover:underline">
-          Contact Developers
-        </Link>
-      </div>
     </div>
   );
 }

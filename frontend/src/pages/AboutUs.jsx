@@ -1,20 +1,24 @@
 /**
  * About Us Page — Project documentation and developer profiles.
  */
-import { Mail, Sparkles, Bot, Rocket, Code2, Cpu } from 'lucide-react';
+import { Mail, Sparkles, Bot, Rocket, Code2, Cpu, Github, Linkedin } from 'lucide-react';
 
 const developers = [
   {
     name: 'Ali Hashim',
     role: 'Lead Developer & Architect',
     email: 'muhammadalihashim514@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/alihashimraza',
+    github: 'https://github.com/alihashim786',
     description: 'Designed the core multi-agent LLM pipeline and full-stack architecture for TakhleeqX.',
     avatar: 'A'
   },
   {
     name: 'Ayyan Ahmad',
     role: 'AI & Backend Developer',
-    email: 'zayanahmad07@gmail.com',
+    email: 'ayan18709@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/ayyan-ahmad-087211387',
+    github: 'https://github.com/',
     description: 'Developed the LLM prompts, agent state management, and integrated external generative APIs.',
     avatar: 'A'
   },
@@ -22,6 +26,8 @@ const developers = [
     name: 'Hamza Jaffer',
     role: 'Frontend & UX Developer',
     email: 'hamzajaffer49@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/hamza-jaffer-37a02a23b/',
+    github: 'http://github.com/hamzajaffer',
     description: 'Built the stunning, responsive user interface and implemented real-time agent monitoring.',
     avatar: 'H'
   }
@@ -87,16 +93,37 @@ export default function AboutUs() {
               </div>
               <h3 className="text-lg font-bold text-text-primary text-center">{dev.name}</h3>
               <p className="text-sm font-medium text-primary text-center mb-4">{dev.role}</p>
-              <p className="text-sm text-text-secondary text-center mb-6 leading-relaxed">
+              <p className="text-sm text-text-secondary text-center mb-6 leading-relaxed flex-grow">
                 {dev.description}
               </p>
-              <a 
-                href={`mailto:${dev.email}`}
-                className="flex items-center justify-center gap-2 w-full py-2 bg-surface-hover hover:bg-primary/10 hover:text-primary text-text-muted rounded-xl transition-colors text-sm font-medium"
-              >
-                <Mail className="w-4 h-4" />
-                Contact {dev.name.split(' ')[0]}
-              </a>
+              
+              <div className="flex items-center justify-center gap-3 pt-4 border-t border-border/50">
+                <a 
+                  href={`mailto:${dev.email}`}
+                  title="Email"
+                  className="w-10 h-10 rounded-full bg-surface-light flex items-center justify-center text-text-muted hover:text-primary hover:bg-primary/10 transition-all duration-200"
+                >
+                  <Mail className="w-5 h-5" />
+                </a>
+                <a 
+                  href={dev.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="LinkedIn"
+                  className="w-10 h-10 rounded-full bg-surface-light flex items-center justify-center text-text-muted hover:text-blue-500 hover:bg-blue-500/10 transition-all duration-200"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <a 
+                  href={dev.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="GitHub"
+                  className="w-10 h-10 rounded-full bg-surface-light flex items-center justify-center text-text-muted hover:text-white hover:bg-white/10 transition-all duration-200"
+                >
+                  <Github className="w-5 h-5" />
+                </a>
+              </div>
             </div>
           ))}
         </div>
