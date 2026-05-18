@@ -1,7 +1,21 @@
 /**
  * About Us Page — Project documentation and developer profiles.
  */
-import { Mail, Sparkles, Bot, Rocket, Code2, Cpu, Github, Linkedin } from 'lucide-react';
+import { Mail, Sparkles, Bot, Rocket, Code2, Cpu } from 'lucide-react';
+
+const GithubIcon = ({ className }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.24c3-.34 6-1.53 6-6.76a5.2 5.2 0 0 0-1.39-3.6 5 5 0 0 0-.12-3.53s-1.13-.36-3.7 1.38a12.9 12.9 0 0 0-7 0C5.13 3.44 4 3.8 4 3.8a5 5 0 0 0-.12 3.53A5.2 5.2 0 0 0 2.5 11c0 5.22 3 6.42 6 6.76a4.8 4.8 0 0 0-1 3.24v4" />
+  </svg>
+);
+
+const LinkedinIcon = ({ className }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+    <rect width="4" height="12" x="2" y="9" />
+    <circle cx="4" cy="4" r="2" />
+  </svg>
+);
 
 const developers = [
   {
@@ -112,7 +126,7 @@ export default function AboutUs() {
                   title="LinkedIn"
                   className="w-10 h-10 rounded-full bg-surface-light flex items-center justify-center text-text-muted hover:text-blue-500 hover:bg-blue-500/10 transition-all duration-200"
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <LinkedinIcon className="w-5 h-5" />
                 </a>
                 <a 
                   href={dev.github}
@@ -121,7 +135,7 @@ export default function AboutUs() {
                   title="GitHub"
                   className="w-10 h-10 rounded-full bg-surface-light flex items-center justify-center text-text-muted hover:text-white hover:bg-white/10 transition-all duration-200"
                 >
-                  <Github className="w-5 h-5" />
+                  <GithubIcon className="w-5 h-5" />
                 </a>
               </div>
             </div>
