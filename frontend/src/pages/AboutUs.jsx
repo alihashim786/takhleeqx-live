@@ -109,7 +109,7 @@ export default function AboutUs() {
             </div>
             <div>
               <p className="text-xs font-semibold text-text-muted uppercase tracking-wider">Restaurant Onboarding & Help</p>
-              <p className="text-sm font-bold text-text-primary">Call Ali: <span className="text-primary-light">+92 300 0000000</span></p>
+              <p className="text-sm font-bold text-text-primary">Call at: <span className="text-primary-light">+923215017784</span> or <span className="text-primary-light">+923259515626</span></p>
             </div>
           </div>
         </div>

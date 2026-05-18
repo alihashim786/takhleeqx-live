@@ -136,8 +136,7 @@ export default function Login() {
             {showHelp && (
               <div className="mt-4 p-4 rounded-xl bg-surface-light border border-border text-left text-sm text-text-secondary animate-fade-in">
                 <p className="font-semibold text-text-primary mb-2">Support & Onboarding</p>
-                <p className="mb-1">Contact: Ali Hashim</p>
-                <p className="mb-1">Phone: <span className="text-primary-light">+92 300 0000000</span></p>
+                <p className="mb-1">Phone: <span className="text-primary-light">+923215017784</span></p>
                 <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadalihashim514@gmail.com" target="_blank" rel="noopener noreferrer" className="text-primary-light hover:underline">muhammadalihashim514@gmail.com</a></p>
               </div>
             )}
