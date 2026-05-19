@@ -101,7 +101,10 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 bg-primary/10 border border-primary/20 p-6 rounded-2xl">
           <div>
             <h2 className="text-2xl font-bold text-text-primary">Meet the Developers</h2>
-            <p className="text-text-muted mt-1">The team behind TakhleeqX</p>
+            <p className="text-text-muted mt-1 mb-2">The team behind TakhleeqX</p>
+            <p className="text-sm text-text-secondary">
+              Email: <a href="mailto:muhammadalihashim514@gmail.com" className="text-primary hover:text-primary-light transition-colors select-all">muhammadalihashim514@gmail.com</a>
+            </p>
           </div>
           <div className="flex items-center gap-4 bg-surface-card px-5 py-3 rounded-xl border border-border">
             <div className="w-10 h-10 rounded-full gradient-accent flex items-center justify-center">
