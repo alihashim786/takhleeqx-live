@@ -25,7 +25,7 @@ def send_notification_email(subject: str, message: str):
     try:
         # For free tier, Resend requires from: onboarding@resend.dev
         # and to: the verified email of the account owner.
-        admin_email = os.environ.get("ADMIN_EMAIL", "syedalihashim14@gmail.com") 
+        admin_email = os.environ.get("ADMIN_EMAIL", "muhammadalihashim514@gmail.com") 
         data = {
             "from": "onboarding@resend.dev",
             "to": [admin_email],
