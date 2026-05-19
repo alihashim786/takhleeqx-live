@@ -101,18 +101,18 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 bg-primary/10 border border-primary/20 p-6 rounded-2xl">
           <div>
             <h2 className="text-2xl font-bold text-text-primary">Meet the Developers</h2>
-            <p className="text-text-muted mt-1 mb-2">The team behind TakhleeqX</p>
-            <p className="text-sm text-text-secondary">
-              Email: <a href="mailto:muhammadalihashim514@gmail.com" className="text-primary hover:text-primary-light transition-colors select-all">muhammadalihashim514@gmail.com</a>
-            </p>
+            <p className="text-text-muted mt-1">The team behind TakhleeqX</p>
           </div>
-          <div className="flex items-center gap-4 bg-surface-card px-5 py-3 rounded-xl border border-border">
-            <div className="w-10 h-10 rounded-full gradient-accent flex items-center justify-center">
-              <Phone className="w-5 h-5 text-white" />
+          <div className="flex items-center gap-4 bg-surface-card px-5 py-4 rounded-xl border border-border">
+            <div className="w-12 h-12 rounded-full gradient-accent flex flex-shrink-0 items-center justify-center shadow-sm">
+              <Phone className="w-6 h-6 text-white" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-text-muted uppercase tracking-wider">Restaurant Onboarding & Help</p>
-              <p className="text-sm font-bold text-text-primary">Call at: <span className="text-primary-light">+923215017784</span> or <span className="text-primary-light">+923259515626</span></p>
+              <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-1">Restaurant Onboarding & Help</p>
+              <p className="text-sm font-bold text-text-primary mb-1">Call at: <span className="text-primary-light">+923215017784</span> or <span className="text-primary-light">+923259515626</span></p>
+              <p className="text-sm text-text-secondary">
+                Email: <a href="mailto:muhammadalihashim514@gmail.com" className="text-primary hover:text-primary-light transition-colors select-all font-medium">muhammadalihashim514@gmail.com</a>
+              </p>
             </div>
           </div>
         </div>
