@@ -70,6 +70,7 @@ app.add_middleware(
 
 # ─── Static Files (Generated Images) ──────────────────────────
 os.makedirs(settings.IMAGE_OUTPUT_DIR, exist_ok=True)
+os.makedirs("campaign_exports", exist_ok=True)
 app.mount("/images", StaticFiles(directory=settings.IMAGE_OUTPUT_DIR), name="images")
 app.mount("/campaign_exports", StaticFiles(directory="campaign_exports"), name="campaign_exports")
 
