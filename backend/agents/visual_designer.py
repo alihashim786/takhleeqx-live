@@ -36,22 +36,22 @@ def _generate_image(prompt: str, post_id: int) -> dict:
             n=1
         )
 
-        image_url_remote = response.data[0].url
+        image_data = response.data[0]
         
-        if not image_url_remote:
-            logger.warning("API returned None for image URL. Using fallback.")
-            image_url_remote = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1024" # Cheesy pizza fallback
-        
-        try:
-            # Download the image from the URL provided by the proxy
-            with httpx.Client(timeout=10.0) as http_client:
-                image_response = http_client.get(image_url_remote)
-                image_response.raise_for_status()
-                image_bytes = image_response.content
-        except Exception as dl_err:
-            logger.warning(f"Failed to download image {dl_err}. Falling back to default URL.")
-            image_url_remote = "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1024"
-            image_bytes = b"" # empty bytes if we skip local save
+        image_bytes = None
+        if getattr(image_data, 'b64_json', None):
+            image_bytes = base64.b64decode(image_data.b64_json)
+        elif getattr(image_data, 'url', None):
+            try:
+                with httpx.Client(timeout=10.0) as http_client:
+                    image_response = http_client.get(image_data.url)
+                    image_response.raise_for_status()
+                    image_bytes = image_response.content
+            except Exception as dl_err:
+                logger.warning(f"Failed to download image {dl_err}.")
+                
+        if not image_bytes:
+            raise ValueError("API returned neither b64_json nor a valid URL.")
 
         # Save the image locally
         os.makedirs(settings.IMAGE_OUTPUT_DIR, exist_ok=True)
@@ -63,12 +63,14 @@ def _generate_image(prompt: str, post_id: int) -> dict:
 
         logger.info(f"Image saved: {filepath}")
 
-        # Provide the remote URL directly so the frontend and Creatomate can access it
-        # without worrying about localhost vs production server URLs
+        # Use the live Render backend URL or fallback to localhost
+        backend_url = os.environ.get("RENDER_EXTERNAL_URL", "https://takhleeqx-live.onrender.com")
+        public_url = f"{backend_url}/images/{filename}"
+
         return {
             "post_id": post_id,
-            "image_url": image_url_remote,
-            "original_url": image_url_remote,
+            "image_url": public_url,
+            "original_url": public_url,
             "alt_text": prompt[:200],
             "filename": filename,
         }
