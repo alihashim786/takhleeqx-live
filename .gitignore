@@ -35,3 +35,19 @@ Thumbs.db
 node_modules/
 dist/
 .parcel-cache/
+
+# Documents and Reports
+*.pdf
+*.docx
+*.txt
+
+# Test and Helper Scripts
+test_*.py
+generate_*.py
+extract_mock.py
+copy_build.py
+
+# Exported Data
+campaign_exports/
+trends_data/
+template_source.json
