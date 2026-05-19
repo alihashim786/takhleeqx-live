@@ -44,10 +44,6 @@ dist/
 # Test and Helper Scripts
 test_*.py
 generate_*.py
-extract_mock.py
-copy_build.py
 
 # Exported Data
-campaign_exports/
-trends_data/
-template_source.json
+# (Data folders are now tracked to ensure smooth Render deployments)

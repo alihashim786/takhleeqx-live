@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "JD Vance's Visit Memes",
+            "description": "US Vice President JD Vance's visit to Pakistan sparked a wave of humorous memes, including jokes about local customs and regulatory quirks.",
+            "relevance_to_food": "Restaurants can create themed events or dishes inspired by the visit, leveraging the viral content to attract customers.",
+            "virality_score": 9,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Petrol Price Hike Memes",
+            "description": "The significant increase in fuel prices led to a surge of memes, with users humorously depicting alternative transportation methods.",
+            "relevance_to_food": "Food delivery services can promote 'fuel-free' delivery options, emphasizing cost savings and convenience.",
+            "virality_score": 8,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Freeze Transition Challenge",
+            "description": "A TikTok trend where users perform a freeze-frame transition, showcasing a sudden appearance of a product or outfit.",
+            "relevance_to_food": "Restaurants can use this trend to creatively showcase menu items or new dishes, engaging a younger audience.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Nostalgic Food Posts",
+            "description": "Users are sharing nostalgic food experiences, reminiscing about traditional dishes and childhood favorites.",
+            "relevance_to_food": "Restaurants can reintroduce classic dishes or create 'throwback' menus to tap into this sentiment.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Babar Azam's PSL Celebration Reaction",
+            "description": "A clip of Babar Azam's reaction during PSL celebrations went viral, with users creating memes comparing it to other cricket moments.",
+            "relevance_to_food": "Sports bars and cafes can host viewing parties, using the meme to promote events and attract cricket fans.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Gorilla Face Meme with Salman Khan Edit",
+            "description": "A humorous edit blending a gorilla's face with Salman Khan's became widely shared, sparking various celebrity face mashups.",
+            "relevance_to_food": "Restaurants can create themed nights or dishes inspired by popular memes to attract a younger crowd.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Samay Raina's 'Still Alive' Clip",
+            "description": "A clip from comedian Samay Raina's video 'Still Alive' gained massive attention, with users adding relatable captions.",
+            "relevance_to_food": "Cafes can host comedy nights or feature stand-up clips to entertain patrons and create a lively atmosphere.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "South Indian Man Singing 'Gangay'",
+            "description": "A video of a man singing 'Gangay' in an extended manner went viral, with users creating remixes and parodies.",
+            "relevance_to_food": "Restaurants can incorporate live music performances or themed nights to engage customers.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Rajat Bedi's Reaction to Asha Bhosle News",
+            "description": "An over-the-top reaction by actor Rajat Bedi to news about Asha Bhosle became a meme template for exaggerated responses.",
+            "relevance_to_food": "Restaurants can use this meme format in their marketing to humorously highlight special offers or events.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "AI Employees Trend",
+            "description": "Businesses are showcasing AI-driven employees or services, sparking discussions and memes about automation.",
+            "relevance_to_food": "Restaurants can introduce AI-based ordering systems or chatbots, promoting them through social media to attract tech-savvy customers.",
+            "virality_score": 5,
+            "platform": "LinkedIn"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "Map Day Meme",
+            "description": "Inspired by the Tomodachi Life game, this meme features an on-screen title bar with an apartment number and name, followed by a humorous scenario.",
+            "format_description": "To recreate this format, overlay a title bar graphic on your video, displaying an apartment number and name, then present a comedic or relatable situation.",
+            "adaptability_for_restaurants": "Restaurants can showcase their dishes or dining experiences as 'residents' of their establishment, using the title bar to introduce each item humorously.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Beat It Dance Challenge",
+            "description": "A resurgence of Michael Jackson's 'Beat It' dance moves, spurred by the release of the 'Michael' biopic, with users performing and sharing their renditions.",
+            "format_description": "Participants film themselves performing the iconic 'Beat It' choreography, often adding personal flair or modern twists.",
+            "adaptability_for_restaurants": "Staff can perform the dance in uniform, incorporating restaurant props, to engage audiences and showcase a fun workplace culture.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "The Wrong Name Loophole",
+            "description": "A humorous format where users misinterpret criticisms directed at them by pretending the comments are meant for someone else with a similar-sounding name.",
+            "format_description": "Overlay text on a video of yourself engaging in a criticized activity, with the text humorously misnaming the intended recipient of the critique.",
+            "adaptability_for_restaurants": "Restaurants can playfully address common customer complaints or stereotypes by showcasing their offerings while humorously 'mishearing' the critique.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Flash Filter Transformations",
+            "description": "Utilizing Instagram's 'Flash' filter to give photos a retro, direct-flash aesthetic reminiscent of early 2000s nightlife photography.",
+            "format_description": "Apply the 'Flash' filter to before-and-after photos to create a nostalgic, high-contrast look.",
+            "adaptability_for_restaurants": "Restaurants can showcase their dishes or ambiance with this filter to evoke a trendy, vintage vibe that appeals to nostalgia-loving audiences.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Take Her Swimming on the First Date",
+            "description": "A trend where users demonstrate the durability of their makeup by submerging themselves in water, flipping a once-negative stereotype into a positive showcase.",
+            "format_description": "Apply makeup, record yourself diving into water, and reveal the intact makeup post-submersion.",
+            "adaptability_for_restaurants": "Restaurants can adapt this by showcasing the resilience of their dishes or packaging, perhaps by submerging a takeout box to demonstrate leak-proof containers.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "Creators share their day from a first-person perspective, offering an immersive experience through quick cuts synced to music.",
+            "format_description": "Film daily activities from your point of view, edit with quick transitions, and sync to an upbeat track.",
+            "adaptability_for_restaurants": "Restaurants can create POV videos of a customer's journey, from entering the establishment to enjoying a meal, providing an immersive preview of the dining experience.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "EVERYTHING HALLELUJAH Listing Format",
+            "description": "A Reels format where users list things they love or are grateful for, set to Justin Bieber's 'EVERYTHING HALLELUJAH'.",
+            "format_description": "Create a video listing favorite items or experiences, each appearing on beat with the song.",
+            "adaptability_for_restaurants": "Restaurants can list their top dishes, customer favorites, or unique offerings, syncing each item to the song's beat to create an engaging showcase.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Climate Clown Meme",
+            "description": "A satirical meme where users dress as clowns and lip-sync to distorted climate change speeches, highlighting perceived inaction on environmental issues.",
+            "format_description": "Dress in clown attire, lip-sync to a distorted speech, and add captions or visuals to emphasize the satire.",
+            "adaptability_for_restaurants": "Restaurants can use this format to humorously highlight their eco-friendly practices or to satirize common environmental misconceptions in the industry.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "AI Pet Lawyer",
+            "description": "A trend where AI-generated videos depict pets as lawyers, complete with suits and court settings, blending humor with technology.",
+            "format_description": "Use AI tools to generate videos of pets in legal scenarios, adding humorous dialogue or captions.",
+            "adaptability_for_restaurants": "Restaurants can create AI-generated videos of mascots or themed characters in humorous legal scenarios, perhaps 'defending' the quality of their food or service.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Nostalgia Glitch",
+            "description": "A meme combining early 2000s internet aesthetics with modern glitch effects, creating a retro-futuristic vibe.",
+            "format_description": "Blend vintage visuals like MySpace layouts or flip phones with glitchy effects and remixed early 2000s music.",
+            "adaptability_for_restaurants": "Restaurants can showcase their history or evolution by blending old photos or menus with modern glitch effects, appealing to both nostalgia and contemporary trends.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Karachi Biryani House's Nostalgic and Humorous Culinary Journey",
+        "top_relevant_trends": [
+            {
+                "trend": "Freeze Transition Challenge",
+                "adaptation": "Use the freeze transition to showcase the sudden appearance of a steaming pot of biryani, engaging younger audiences on TikTok.",
+                "priority": 1
+            },
+            {
+                "trend": "Nostalgic Food Posts",
+                "adaptation": "Create 'throwback' menus and share nostalgic food posts on Instagram, reminding customers of traditional biryani experiences and childhood memories.",
+                "priority": 2
+            },
+            {
+                "trend": "Map Day Meme",
+                "adaptation": "Feature different biryani dishes as 'residents' of Karachi Biryani House with humorous scenarios, using the Map Day Meme format to engage audiences on TikTok.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Nostalgia",
+            "Humor",
+            "Engagement with Youth"
+        ],
+        "reasoning": "The selected trends align with Karachi Biryani House's fun and playful brand tone while leveraging both local relevance and global viral formats. The Freeze Transition Challenge and Map Day Meme appeal to a younger, tech-savvy audience on TikTok, while Nostalgic Food Posts connect with customers on Instagram who cherish traditional and emotional culinary experiences. These trends provide a dynamic blend of humor, nostalgia, and engagement, making the restaurant relatable and memorable."
+    }
+}

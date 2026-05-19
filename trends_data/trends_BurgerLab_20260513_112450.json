@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Bong Paya Aesthetic",
+            "description": "Early morning vlogs showcasing traditional winter dishes like nihari and halwa puri, emphasizing the ambiance of local eateries.",
+            "relevance_to_food": "Restaurants can create immersive dining experiences that highlight traditional dishes, encouraging patrons to share their visits online.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Drama Scene Re-enactments",
+            "description": "Users recreate famous dialogues from popular Pakistani dramas, adding humorous twists or personal reactions.",
+            "relevance_to_food": "Restaurants can host themed nights based on popular dramas, encouraging patrons to participate and share their experiences.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Failed RAW Agent Memes",
+            "description": "Inspired by the film 'Dhurandhar', users create humorous content portraying themselves as unsuccessful spies.",
+            "relevance_to_food": "Cafes can introduce spy-themed menu items or decor, tapping into the meme's popularity.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Chahat Fateh Ali Khan Parodies",
+            "description": "Memes and videos mimicking the unique performances of internet sensation Chahat Fateh Ali Khan.",
+            "relevance_to_food": "Restaurants can host live music nights featuring local artists performing in a similar style, attracting meme enthusiasts.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "US Vlogger's Street Food Trail",
+            "description": "A viral video of a US vlogger exploring Lahore's street food scene, highlighting local delicacies.",
+            "relevance_to_food": "Local eateries can collaborate with influencers to showcase their offerings to a broader audience.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Dananeer Mobeen's Lifestyle Content",
+            "description": "The influencer shares snippets of her daily life, including dining experiences and fashion choices.",
+            "relevance_to_food": "Restaurants can invite influencers like Dananeer for collaborations, leveraging their reach to attract younger demographics.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Food ASMR Videos",
+            "description": "Content creators produce videos focusing on the sounds of cooking and eating, providing a sensory experience.",
+            "relevance_to_food": "Restaurants can create their own ASMR content, highlighting the preparation and enjoyment of their signature dishes.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Traditional Attire Fashion Shows",
+            "description": "Events and online content showcasing modern takes on traditional Pakistani clothing.",
+            "relevance_to_food": "Restaurants can host fashion-themed events, pairing traditional attire showcases with authentic cuisine.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Home-Cooked Meal Challenges",
+            "description": "Users share their attempts at recreating restaurant dishes at home, often with humorous results.",
+            "relevance_to_food": "Restaurants can offer DIY meal kits, allowing customers to try making their favorite dishes at home.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Celebrity Food Reviews",
+            "description": "Pakistani celebrities share their dining experiences, reviewing local eateries and dishes.",
+            "relevance_to_food": "Restaurants can invite celebrities for exclusive tastings, generating buzz and attracting fans.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "It's Gonna Be May",
+            "description": "An annual resurgence of the meme based on NSYNC's 2000 hit, where 'me' is pronounced as 'May,' signaling the arrival of May.",
+            "format_description": "Share images or videos featuring Justin Timberlake with captions like 'It's Gonna Be May' to celebrate the start of May.",
+            "adaptability_for_restaurants": "Restaurants can create themed promotions or events at the end of April, using the meme to announce May specials or new menu items.",
+            "virality_score": 8,
+            "platform": "Instagram/Twitter"
+        },
+        {
+            "title": "Flash Filter Transformations",
+            "description": "A trend where users apply Instagram's AI-powered Flash filter to give photos a direct-flash, late-2000s party-pic aesthetic.",
+            "format_description": "Use the Flash filter on photos to create a nostalgic, grainy look reminiscent of early digital camera shots.",
+            "adaptability_for_restaurants": "Restaurants can showcase their dishes or ambiance using the Flash filter to evoke a retro vibe, appealing to nostalgia-loving customers.",
+            "virality_score": 7,
+            "platform": "Instagram/TikTok"
+        },
+        {
+            "title": "Take Her Swimming on the First Date",
+            "description": "A meme where creators prove their makeup's durability by diving into pools, flipping a once-negative phrase into a positive showcase.",
+            "format_description": "Apply makeup, dive into a pool, and resurface to show the makeup's resilience, set to trending audio.",
+            "adaptability_for_restaurants": "Restaurants with outdoor or poolside seating can create content highlighting their ambiance, perhaps featuring staff or patrons enjoying the setting.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "A content format where creators film their day from a first-person perspective, offering an immersive experience.",
+            "format_description": "Capture daily activities from your point of view, using quick cuts synced to music for an engaging narrative.",
+            "adaptability_for_restaurants": "Restaurants can create POV videos showcasing a diner's experience from entering the venue to enjoying a meal, highlighting the ambiance and dishes.",
+            "virality_score": 7,
+            "platform": "Instagram Reels"
+        },
+        {
+            "title": "The 'EVERYTHING HALLELUJAH' Listing Format",
+            "description": "A Reels format where creators list things they love or recommend, set to Justin Bieber's 'EVERYTHING HALLELUJAH.'",
+            "format_description": "Create a list of favorite items or experiences, overlaying text on visuals, synchronized to the song's beat.",
+            "adaptability_for_restaurants": "Restaurants can list their top dishes or customer favorites, creating engaging content that showcases their menu highlights.",
+            "virality_score": 6,
+            "platform": "Instagram Reels"
+        },
+        {
+            "title": "The Wrong Name Loophole",
+            "description": "A humorous trend where creators mishear critiques as being directed at someone else due to a name mix-up.",
+            "format_description": "Post a photo or video of yourself doing something you're often criticized for, with text overlay humorously misinterpreting the critique.",
+            "adaptability_for_restaurants": "Restaurants can playfully address common critiques (e.g., 'Your portions are too big') by showcasing their generous servings with this meme format.",
+            "virality_score": 5,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Map Day",
+            "description": "A trend inspired by the Tomodachi Life game, where creators use an on-screen title bar with an apartment number and name, followed by a meme.",
+            "format_description": "Recreate the in-game format by displaying a title bar with an apartment number and name, leading into a humorous or relatable meme.",
+            "adaptability_for_restaurants": "Restaurants can introduce their staff or menu items using this format, adding a personal and fun touch to their content.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Beat It Dance Challenge",
+            "description": "A revival of Michael Jackson's 'Beat It' dance, spurred by the release of the film 'Michael,' with creators showcasing their moves.",
+            "format_description": "Perform and share dance routines set to 'Beat It,' often incorporating iconic MJ moves.",
+            "adaptability_for_restaurants": "Restaurants can host dance events or challenges, encouraging patrons to participate and share their performances, fostering community engagement.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Dancing In The Dark",
+            "description": "A trend where creators dance in various settings to Rihanna's 'Dancing In The Dark,' embracing spontaneity and fun.",
+            "format_description": "Record yourself dancing in unexpected or dark locations, highlighting the joy of movement.",
+            "adaptability_for_restaurants": "Restaurants can create content featuring staff dancing in the kitchen or dining area, showcasing a lively and enjoyable atmosphere.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "You Rock My World",
+            "description": "A trend where creators showcase their admiration or affection, set to Michael Jackson's 'You Rock My World.'",
+            "format_description": "Create videos expressing appreciation or love, using the song as a backdrop to highlight the subject.",
+            "adaptability_for_restaurants": "Restaurants can feature loyal customers or staff members, expressing gratitude and building a stronger community connection.",
+            "virality_score": 5,
+            "platform": "TikTok"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Spy-Themed Mighty Zinger Extravaganza",
+        "top_relevant_trends": [
+            {
+                "trend": "Failed RAW Agent Memes",
+                "adaptation": "Create a spy-themed experience at BurgerLab, with special menu items inspired by espionage, like the 'Undercover Zinger' and decor featuring spy gadgets. Encourage patrons to dress as spies and share their experience.",
+                "priority": 1
+            },
+            {
+                "trend": "Drama Scene Re-enactments",
+                "adaptation": "Host a 'Drama Night' at BurgerLab where patrons can recreate famous drama scenes, using the restaurant as their stage. Capture and share these moments on TikTok to engage the audience.",
+                "priority": 2
+            },
+            {
+                "trend": "POV Reels: First-Person Storytelling",
+                "adaptation": "Create engaging POV videos showing a customer's journey from entering BurgerLab to savoring the Mighty Zinger, highlighting the fun and playful atmosphere.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Spy Adventure",
+            "Drama Re-enactment Night",
+            "First-Person Burger Experience"
+        ],
+        "reasoning": "These trends align with BurgerLab's fun and playful brand tone and allow for creative engagement with the audience. The spy theme leverages a high-virality local trend and can introduce unique menu items. Drama re-enactments can attract drama enthusiasts, while POV storytelling offers an immersive way to showcase the dining experience, making patrons feel part of an engaging narrative."
+    }
+}

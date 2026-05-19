@@ -1,0 +1,51 @@
+{
+  "campaign_name": "Meme Feast Fiesta",
+  "target_audience": "Young adults and teenagers in Islamabad, meme enthusiasts, social media-active individuals who enjoy fast food and playful dining experiences.",
+  "tone": "Fun, playful, and meme-savvy, with a touch of local cultural humor.",
+  "campaign_duration": "1 month",
+  "content_pillars": [
+    {
+      "pillar_name": "Meme-Driven Engagement",
+      "description": "Integrate trending memes in creative ways to engage with the audience and showcase Cheezious' signature dishes.",
+      "post_count": 4,
+      "example_topic": "Feature the 'Moye Moye Crown Crust Pizza' with a humorous meme adaptation, inviting customers to join the fun."
+    },
+    {
+      "pillar_name": "Dance Challenge Showcases",
+      "description": "Spotlight the APT Dance Challenge by involving staff and customers, creating a lively atmosphere and social media buzz.",
+      "post_count": 4,
+      "example_topic": "Post a video of Cheezious staff performing the APT Dance Challenge, encouraging customers to participate and share their own versions."
+    },
+    {
+      "pillar_name": "Fun Comparisons",
+      "description": "Use the Drake meme format to highlight Cheezious' top dishes and promotions, encouraging preferences in a playful manner.",
+      "post_count": 4,
+      "example_topic": "Create a post with the Drake meme format, showing a less popular dish in the top panel and the Crown Crust Pizza in the bottom panel as the preferred choice."
+    },
+    {
+      "pillar_name": "Local Meme Connection",
+      "description": "Leverage local cultural memes like 'Qudrat Ka Nizam' to highlight unique Cheezious experiences and menu items.",
+      "post_count": 4,
+      "example_topic": "Use the 'Qudrat Ka Nizam' meme to humorously present an unexpected twist in a dining experience at Cheezious, such as a surprise topping on the pizza."
+    }
+  ],
+  "posting_schedule": {
+    "frequency": "3 times a week",
+    "best_times": [
+      "Thursday 7 PM",
+      "Saturday 5 PM",
+      "Monday 12 PM"
+    ],
+    "platforms": [
+      "Instagram",
+      "Facebook"
+    ]
+  },
+  "key_messages": [
+    "Join the Meme Feast with Cheezious!",
+    "Experience the fun side of fast food.",
+    "Cheezious: Where memes meet meals."
+  ],
+  "hashtag_strategy": "Use a mix of branded and trend-specific hashtags such as #CheeziousMemeFeast, #CrownCrustCraze, #MoyeMoyePizza, #DanceWithCheezious, and trending local memes like #QudratKaNizam.",
+  "visual_style": "Bright and colorful with playful meme graphics and dynamic video content, incorporating local cultural elements and fun, engaging text overlays."
+}

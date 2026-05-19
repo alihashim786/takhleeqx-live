@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Bong Paya Aesthetic",
+            "description": "TikTok users are sharing early morning vlogs featuring traditional winter dishes like nihari and halwa puri, emphasizing the ambiance of foggy streets and steaming food.",
+            "relevance_to_food": "Restaurants can create similar atmospheric content showcasing their signature dishes to attract food enthusiasts.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Drama Scene Re-enactments",
+            "description": "Users are recreating famous dialogues from popular TV dramas, adding humorous twists by changing settings or using green screen effects.",
+            "relevance_to_food": "Eateries can participate by reenacting scenes with staff, incorporating their menu items to engage with drama fans.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Crumble Pakistan's Meme Marketing",
+            "description": "The dessert brand 'Crumble Pakistan' has gained attention for its meme-centric marketing, blending humor with product promotion.",
+            "relevance_to_food": "Other food businesses can adopt a similar approach by integrating relatable memes into their marketing strategies.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Chahat Fateh Ali Khan's Viral Performances",
+            "description": "The internet sensation's unique musical performances and eccentric style have become a focal point for memes and social media discussions.",
+            "relevance_to_food": "Restaurants can collaborate with viral personalities like Chahat to create themed events or promotions.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "US Vlogger's Street Food Trail",
+            "description": "A US-based vlogger's exploration of Lahore's street food has amused and engaged internet users, highlighting local culinary delights.",
+            "relevance_to_food": "Local eateries can invite international influencers to showcase their offerings, reaching a broader audience.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Pakistani Snack Names Resembling Global Brands",
+            "description": "A viral video showcasing local snacks with names similar to international brands has entertained viewers, sparking discussions on cultural adaptations.",
+            "relevance_to_food": "Restaurants can playfully name dishes or create fusion items that blend local and international flavors to attract curious customers.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Biryani Searches on TikTok",
+            "description": "Biryani has emerged as one of the most searched food items on TikTok in Pakistan, reflecting its enduring popularity.",
+            "relevance_to_food": "Restaurants can capitalize on this trend by sharing behind-the-scenes videos of their biryani preparation or offering special deals.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Fast Food Culture Evolution",
+            "description": "The rise of global fast-food franchises in Pakistan has led to a blend of traditional and modern dining experiences.",
+            "relevance_to_food": "Local restaurants can highlight their unique offerings that combine traditional flavors with fast-food convenience to stand out.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Mahira Khan's Cultural Influence",
+            "description": "Actress Mahira Khan continues to shape public taste through her performances and brand collaborations.",
+            "relevance_to_food": "Restaurants can collaborate with celebrities like Mahira for endorsements or themed events to attract fans.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Momin Saqib's 'Maro Mujhe Maro' Meme",
+            "description": "The emotional outburst of Momin Saqib after a cricket match loss has become a timeless meme, symbolizing passionate reactions.",
+            "relevance_to_food": "Eateries can use this meme to humorously depict customers' reactions to their spicy dishes or limited-time offers.",
+            "virality_score": 9,
+            "platform": "Twitter"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "APT Dance Challenge",
+            "description": "A high-energy dance routine set to ROSE's 'APT' featuring Bruno Mars, characterized by fun hand clapping and rhythmic moves.",
+            "format_description": "Participants perform the choreographed dance, often adding personal flair, and share their versions on social media platforms.",
+            "adaptability_for_restaurants": "Restaurants can have staff perform the dance in uniform, showcasing the dining environment, or encourage patrons to participate, offering incentives for sharing their videos.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "A content format where creators capture their day from a first-person perspective, providing an immersive experience for viewers.",
+            "format_description": "Creators film their activities from their own viewpoint, using quick cuts synced to music, to create a dynamic and engaging narrative.",
+            "adaptability_for_restaurants": "Restaurants can create POV videos showcasing a day in the life of a chef, the journey of a dish from kitchen to table, or a customer's dining experience.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "The 'EVERYTHING HALLELUJAH' Listing Format",
+            "description": "A trend where creators list things they love or are grateful for, set to Justin Bieber's 'Everything Hallelujah'.",
+            "format_description": "Participants create videos listing their favorite items, experiences, or moments, often with text overlays and synchronized to the song.",
+            "adaptability_for_restaurants": "Restaurants can showcase popular menu items, highlight customer favorites, or express gratitude to patrons and staff using this format.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "The Wrong Name Loophole",
+            "description": "A humorous trend where creators mishear a critique as being directed at someone else, using a play on names.",
+            "format_description": "Participants post a photo or video of themselves engaging in a criticized behavior, with text overlay humorously redirecting the critique to a fictitious name.",
+            "adaptability_for_restaurants": "Restaurants can use this trend to playfully address common critiques, such as indulging in desserts or dining out frequently, by redirecting the 'critique' in a humorous way.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "What's in My Bag Challenge",
+            "description": "A trend where users reveal the contents of their bags, often highlighting quirky or essential items.",
+            "format_description": "Participants film themselves unpacking their bags, showcasing and discussing each item, sometimes with a thematic focus.",
+            "adaptability_for_restaurants": "Restaurants can create 'What's in My Bag' videos featuring chefs' toolkits, delivery drivers' essentials, or even a customer's takeout bag to highlight menu items.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Map Day Meme",
+            "description": "A meme format inspired by the 'Tomodachi Life' game, featuring an on-screen title bar with an apartment number and name, followed by a humorous scenario.",
+            "format_description": "Creators use the 'Map Day' audio and overlay text to mimic the game's interface, setting up a comedic or relatable situation.",
+            "adaptability_for_restaurants": "Restaurants can use this format to introduce staff members, showcase daily specials, or highlight unique aspects of their establishment in a playful manner.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Beat It Dance Revival",
+            "description": "A resurgence of Michael Jackson's 'Beat It' dance, coinciding with the release of the 'Michael' biopic.",
+            "format_description": "Dancers recreate the iconic 'Beat It' choreography, often adding modern twists or performing in unique locations.",
+            "adaptability_for_restaurants": "Restaurants can have staff perform the dance in dining areas, create themed events, or encourage patrons to join in, sharing the performances on social media.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Silhouette Challenge",
+            "description": "A challenge where participants pose in a sultry silhouette against a red-lit background.",
+            "format_description": "Creators film themselves transitioning from regular lighting to a red-lit silhouette, often set to specific music, creating a dramatic effect.",
+            "adaptability_for_restaurants": "Restaurants can use this trend to showcase signature dishes or cocktails in silhouette, creating a mysterious and enticing visual effect.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Flip the Switch Challenge",
+            "description": "A challenge where participants switch outfits and personas with a partner, inspired by a scene from 'Schitt’s Creek'.",
+            "format_description": "Two people stand in front of a mirror; when the light switch is flipped, they swap outfits and mimic each other's poses or actions.",
+            "adaptability_for_restaurants": "Restaurants can feature staff members swapping roles (e.g., chef and server) to showcase teamwork and versatility, adding a fun twist to their content.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Wipe It Down Challenge",
+            "description": "A challenge where participants transform their appearances in front of a mirror, set to BMW Kenny’s 'Wipe It Down'.",
+            "format_description": "Creators film themselves wiping a mirror, revealing different outfits or personas with each wipe, often leading to a surprising alter ego.",
+            "adaptability_for_restaurants": "Restaurants can use this trend to showcase menu transformations, such as a dish before and after preparation, or to highlight different dining experiences.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Karachi Biryani House: Where Tradition Meets Trend",
+        "top_relevant_trends": [
+            {
+                "trend": "Biryani Searches on TikTok",
+                "adaptation": "Create engaging behind-the-scenes TikTok videos showcasing the preparation of their signature biryani, highlighting unique ingredients and cooking techniques.",
+                "priority": 1
+            },
+            {
+                "trend": "APT Dance Challenge",
+                "adaptation": "Have the staff perform the APT Dance Challenge in uniform within the restaurant setting, encouraging patrons to join in and share their own versions for a chance to win a free biryani meal.",
+                "priority": 2
+            },
+            {
+                "trend": "Crumble Pakistan's Meme Marketing",
+                "adaptation": "Develop humorous memes incorporating biryani and popular local and global cultural references to engage the audience on Instagram.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Biryani Behind-the-Scenes",
+            "Dance & Dine with Biryani",
+            "Memes & Mirth"
+        ],
+        "reasoning": "Biryani is the restaurant's specialty and a highly searched item on TikTok, making it crucial to highlight it through compelling visual storytelling. The APT Dance Challenge aligns with the restaurant's fun and playful brand tone, creating an interactive and lively atmosphere that encourages customer participation. Utilizing meme marketing leverages the current trend of humor in digital content, allowing Karachi Biryani House to connect with a broad audience in a relatable and entertaining manner. These trends together create a dynamic marketing strategy that celebrates the essence of the restaurant while engaging with both local and global audiences."
+    }
+}

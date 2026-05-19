@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Moye Moye Dance Challenge",
+            "description": "A dance challenge inspired by the 'Moye Moye' meme, where participants perform choreographed moves to the catchy tune.",
+            "relevance_to_food": "Restaurants can host 'Moye Moye' dance nights or offer discounts to customers who participate in the challenge, creating a lively dining atmosphere.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Looking Like a Wow",
+            "description": "A phrase popularized by Jasmeen Kaur, used to compliment someone's appearance or a product's appeal.",
+            "relevance_to_food": "Eateries can use the phrase in marketing campaigns to highlight their signature dishes, e.g., 'Our biryani is looking like a wow!'",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Haris Rauf and Virat Kohli's Interaction",
+            "description": "A video capturing a friendly exchange between cricketers Haris Rauf and Virat Kohli during a training session.",
+            "relevance_to_food": "Cafés can screen the viral video to attract cricket fans, offering special deals during match screenings.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Aukat Dikha Di Meme",
+            "description": "A meme originating from a Tamil movie scene, humorously depicting someone being put in their place.",
+            "relevance_to_food": "Restaurants can create themed nights where staff playfully 'challenge' customers to finish spicy dishes, using the meme as a promotional tool.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Naeem Qureshi's Dance Anthem",
+            "description": "A dance tutorial by Naeem Qureshi that went viral, leading to widespread replication of his moves.",
+            "relevance_to_food": "Dining establishments can organize dance-offs or feature live performances inspired by the dance, enhancing customer engagement.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Bhupendra Jogi Meme",
+            "description": "A meme based on a humorous interview response where a man repeatedly states his name, leading to widespread online amusement.",
+            "relevance_to_food": "Cafés can create signature drinks named after the meme, encouraging patrons to order in a fun, interactive manner.",
+            "virality_score": 6,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Aayein Meme",
+            "description": "A meme stemming from an interview with a student who humorously responded with 'Aayein' when asked about his favorite subject.",
+            "relevance_to_food": "Restaurants can introduce a surprise 'Aayein' dish, where customers order without knowing what they'll receive, adding an element of fun.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Orry - The Enigmatic Influencer",
+            "description": "Orhan Awatramani, known as 'Orry,' gained fame for his mysterious persona and appearances at high-profile events.",
+            "relevance_to_food": "Eateries can host 'Orry Nights' with exclusive menus, creating an air of mystery and exclusivity to attract patrons.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Rakhi Sawant's Public Feuds",
+            "description": "Reality TV star Rakhi Sawant remained in the spotlight due to her public disputes and emotional outbursts.",
+            "relevance_to_food": "Restaurants can host 'Drama Nights' featuring live performances or screenings of popular celebrity feuds, drawing in entertainment enthusiasts.",
+            "virality_score": 6,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Petrol Price Hike Memes",
+            "description": "Following a significant increase in petrol prices, the internet was flooded with memes expressing public frustration humorously.",
+            "relevance_to_food": "Cafés can offer 'Fuel Up' discounts or promotions, acknowledging the economic strain and attracting budget-conscious customers.",
+            "virality_score": 9,
+            "platform": "Twitter"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "Mom, what were you like in the 90s?",
+            "description": "A meme where users share current photos followed by a slideshow of their 1990s pictures, set to 'Iris' by the Goo Goo Dolls.",
+            "format_description": "Start with a present-day photo or video, then transition into a series of 90s-era photos, all set to 'Iris' by the Goo Goo Dolls.",
+            "adaptability_for_restaurants": "Restaurants can showcase their evolution by posting current images of their establishment followed by photos from the 90s, highlighting changes in decor, menu items, or staff uniforms.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Take Her Swimming on the First Date",
+            "description": "A trend where creators demonstrate the durability of their makeup by submerging themselves in water and emerging with their makeup intact.",
+            "format_description": "Apply a full face of makeup, record yourself diving into a pool, and then emerging to show that the makeup remains flawless.",
+            "adaptability_for_restaurants": "Restaurants can use this trend to showcase the durability of their food packaging by submerging a takeout box in water and revealing that the food inside remains untouched.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "The Wrong Name Loophole",
+            "description": "A humorous format where users pretend to mishear criticisms directed at them by interpreting them as being addressed to someone else with a similar-sounding name.",
+            "format_description": "Overlay text on a video of yourself engaging in a criticized activity, with the text reading something like, 'When my [relation] is yelling at someone named '[criticism]' but my name is [your name] so it's okay.'",
+            "adaptability_for_restaurants": "Restaurants can create videos where they humorously 'mishear' customer complaints, showcasing their commitment to quality and customer satisfaction.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Flash Filter Transformations",
+            "description": "A trend where users apply Instagram's new Flash filter to their photos to give them a direct-flash, late-2000s party-pic aesthetic.",
+            "format_description": "Take a regular photo and apply the Flash filter to transform it into a high-contrast, grainy image reminiscent of early digital camera photos.",
+            "adaptability_for_restaurants": "Restaurants can use this filter to give their food photos a nostalgic, retro vibe, appealing to customers' sense of nostalgia.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "It's Gonna Be May",
+            "description": "An annual meme that resurfaces every April, playing on the way Justin Timberlake pronounces 'me' as 'May' in the NSYNC song 'It's Gonna Be Me.'",
+            "format_description": "Share images or videos with captions that play on the phrase 'It's Gonna Be May,' often accompanied by photos of Justin Timberlake.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to promote May specials or events, incorporating the phrase into their marketing materials.",
+            "virality_score": 9,
+            "platform": "Twitter"
+        },
+        {
+            "title": "2026 is the new 2016",
+            "description": "A trend where users recreate or reference popular internet moments and memes from 2016, celebrating nostalgia.",
+            "format_description": "Post content that mimics or references viral trends from 2016, such as the Mannequin Challenge or Pokémon Go.",
+            "adaptability_for_restaurants": "Restaurants can recreate popular 2016 food trends or menu items, sharing them with captions like 'Bringing back the classics! #2026isthenew2016.'",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Map Day",
+            "description": "A trend inspired by the Nintendo game Tomodachi Life, where users create content with an on-screen title bar and apartment number, followed by a meme.",
+            "format_description": "Create a video with an on-screen title bar displaying an apartment number and name, then follow it with a humorous or relatable meme.",
+            "adaptability_for_restaurants": "Restaurants can use this format to introduce new menu items or staff members, presenting them as 'new residents' in their establishment.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Beat It Dance Challenge",
+            "description": "A resurgence of Michael Jackson's 'Beat It' dance, with users performing and sharing their versions of the iconic choreography.",
+            "format_description": "Record yourself performing the 'Beat It' dance routine and share it with the original song playing in the background.",
+            "adaptability_for_restaurants": "Restaurants can have staff members participate in the dance challenge, showcasing their fun side and engaging with the community.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Happy Mother's Day Hashtags",
+            "description": "A surge in content celebrating Mother's Day, with users sharing heartfelt messages, photos, and videos using hashtags like #happymothersday.",
+            "format_description": "Post content honoring mothers, accompanied by popular Mother's Day hashtags to join the broader conversation.",
+            "adaptability_for_restaurants": "Restaurants can share special Mother's Day promotions or events, using these hashtags to reach a wider audience.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Aaj Nazar Nahi Lagni Chahiye",
+            "description": "A meme where users humorously perform protective rituals to prevent jinxing a positive situation, often related to sports events.",
+            "format_description": "Create a video showing yourself engaging in exaggerated protective rituals, with captions like 'Aaj nazar nahi lagni chahiye' to prevent bad luck.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to playfully 'protect' their best-selling dishes from running out, engaging customers with humor.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Dance and Nostalgia Fusion",
+        "top_relevant_trends": [
+            {
+                "trend": "Moye Moye Dance Challenge",
+                "adaptation": "Host 'Moye Moye Burger Dance Nights' where customers can participate in dance-offs inspired by the challenge, with a chance to win discounts on their orders.",
+                "priority": 1
+            },
+            {
+                "trend": "Flash Filter Transformations",
+                "adaptation": "Use the Flash filter to create nostalgic, retro-style photos of the Mighty Zinger with Double Cheese, appealing to customers' love for retro aesthetics.",
+                "priority": 2
+            },
+            {
+                "trend": "Mom, what were you like in the 90s?",
+                "adaptation": "Create a fun before-and-after series showcasing SecureBurgers' evolution, using current and vintage photos to highlight the brand's journey.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Dance Challenges",
+            "Retro Vibes",
+            "Brand Evolution"
+        ],
+        "reasoning": "These trends align well with SecureBurgers' fun and playful brand tone. The 'Moye Moye Dance Challenge' directly encourages customer interaction and creates a lively atmosphere. The 'Flash Filter Transformations' and 'Mom, what were you like in the 90s?' trends tap into nostalgia, appealing to a broad audience and enhancing brand storytelling. Combining dance and nostalgia will attract both younger audiences and those with a penchant for the past."
+    }
+}

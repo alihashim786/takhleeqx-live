@@ -1,0 +1,52 @@
+{
+  "campaign_name": "Biryani Beats & Treats",
+  "target_audience": "Young adults and families in Karachi who enjoy vibrant dining experiences, social media enthusiasts, foodies, and pop culture fans.",
+  "tone": "Energetic, playful, and engaging with a touch of cultural relevance.",
+  "campaign_duration": "1 month",
+  "content_pillars": [
+    {
+      "pillar_name": "Biryani Battle Royale",
+      "description": "Engage customers by hosting a biryani recipe contest where they submit their unique biryani creations.",
+      "post_count": 4,
+      "example_topic": "Kick-off announcement post for the Biryani Battle, inviting customers to submit their recipes."
+    },
+    {
+      "pillar_name": "Dance & Dine Challenge",
+      "description": "Encourage participation in the 'Six Seven Dance Challenge', incorporating biryani-themed props.",
+      "post_count": 4,
+      "example_topic": "A TikTok video featuring staff doing the 'Six Seven' dance with biryani pots, challenging customers to join in."
+    },
+    {
+      "pillar_name": "Euphoria Biryani Nights",
+      "description": "Host Euphoria-themed biryani nights with special dishes inspired by the show.",
+      "post_count": 3,
+      "example_topic": "Instagram post showcasing the 'Euphoria Biryani' dish with a call to action for fans to attend the themed night."
+    },
+    {
+      "pillar_name": "Biryani Vlog Adventures",
+      "description": "Collaborate with local vloggers to feature Karachi Biryani Centre in street food exploration videos.",
+      "post_count": 3,
+      "example_topic": "Behind-the-scenes Instagram story with a popular vlogger exploring the making of Karachi Biryani Centre's signature dish."
+    }
+  ],
+  "posting_schedule": {
+    "frequency": "3x/week",
+    "best_times": [
+      "Thursday evening",
+      "Saturday afternoon",
+      "Tuesday morning"
+    ],
+    "platforms": [
+      "Instagram",
+      "TikTok",
+      "Facebook"
+    ]
+  },
+  "key_messages": [
+    "Explore the flavors of Karachi with a twist of fun!",
+    "Join the Biryani Fiesta and dance your way to deliciousness!",
+    "Experience Euphoria with every bite of our themed biryani."
+  ],
+  "hashtag_strategy": "Use a mix of trending and branded hashtags such as #BiryaniBeats, #KarachiBiryaniCentre, #BiryaniFiesta, #SixSevenBiryaniDance, and #EuphoriaBiryani.",
+  "visual_style": "Bright and colorful visuals with dynamic movement, featuring playful elements like dance and vibrant pop culture references. Use bold typography and upbeat music to enhance engagement."
+}

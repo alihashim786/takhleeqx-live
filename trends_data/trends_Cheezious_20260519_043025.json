@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Fuel Price Hike Memes",
+            "description": "Following the government's significant increase in fuel prices on April 2, 2026, social media was flooded with memes humorously depicting the impact on daily life and transportation costs.",
+            "relevance_to_food": "Restaurants can create promotions or discounts themed around 'fuel-saving' deals, appealing to customers looking to economize.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Trade Deficit Discussions",
+            "description": "The news of Pakistan's trade deficit crossing $4 billion in April 2026 sparked widespread discussions and memes about the economy and its effects on the average citizen.",
+            "relevance_to_food": "Restaurants can engage customers by offering 'budget-friendly' meal options, aligning with the public's focus on economic concerns.",
+            "virality_score": 7,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Inflation Impact Memes",
+            "description": "With inflation reaching 10.9% in April 2026, netizens shared memes highlighting the rising costs of everyday items, including food and dining out.",
+            "relevance_to_food": "Eateries can introduce 'inflation-buster' combo meals or discounts to attract cost-conscious diners.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Celebrity Chef Challenges",
+            "description": "Pakistani celebrity chefs initiated online cooking challenges, encouraging followers to recreate traditional dishes with a modern twist.",
+            "relevance_to_food": "Restaurants can participate by showcasing their versions of these dishes, engaging with the trend and attracting food enthusiasts.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Street Food Revival",
+            "description": "A resurgence in the popularity of traditional street foods, with influencers highlighting local vendors and unique dishes.",
+            "relevance_to_food": "Restaurants can collaborate with street food vendors or incorporate popular street food items into their menus.",
+            "virality_score": 7,
+            "platform": "YouTube"
+        },
+        {
+            "title": "Home Cooking Videos",
+            "description": "Amid economic concerns, there's a growing trend of sharing budget-friendly home-cooked meal recipes.",
+            "relevance_to_food": "Restaurants can offer meal kits or cooking classes, tapping into the DIY cooking trend.",
+            "virality_score": 6,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Food Delivery Service Promotions",
+            "description": "Increased promotions and discounts from food delivery services have been widely shared and discussed online.",
+            "relevance_to_food": "Restaurants can partner with delivery services to offer exclusive deals, attracting a larger customer base.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Viral Food Challenges",
+            "description": "Challenges like the 'Spicy Biryani Challenge' have gained traction, with participants attempting to eat extremely spicy versions of the dish.",
+            "relevance_to_food": "Restaurants can host their own versions of these challenges, offering prizes to participants and drawing in crowds.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Eco-Friendly Dining",
+            "description": "A growing awareness of environmental issues has led to discussions about sustainable and eco-friendly dining practices.",
+            "relevance_to_food": "Restaurants can promote their use of sustainable ingredients and eco-friendly practices to attract environmentally conscious customers.",
+            "virality_score": 6,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Foodie Influencer Collaborations",
+            "description": "Collaborations between popular food influencers and restaurants have resulted in exclusive menu items and events.",
+            "relevance_to_food": "Restaurants can partner with influencers to create buzz and attract their followers to dine in.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "Drake Meme",
+            "description": "A two-panel meme featuring rapper Drake expressing disapproval in the first panel and approval in the second, used to compare preferences.",
+            "format_description": "To recreate, select two contrasting images or statements; place the disapproved one in the top panel with Drake's rejecting gesture, and the approved one in the bottom panel with Drake's approving gesture.",
+            "adaptability_for_restaurants": "Restaurants can showcase menu items or promotions, highlighting preferred choices in the approved panel to influence customer decisions.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Crying Cat",
+            "description": "An image of a cat with teary eyes, used to convey sadness or emotional reactions humorously.",
+            "format_description": "Overlay the crying cat image onto a relatable situation or text that evokes a humorous sense of despair or sadness.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously depict scenarios like running out of a popular dish, resonating with customers' disappointment.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Surprised Pikachu",
+            "description": "An image of Pikachu with a surprised expression, used to depict unexpected outcomes.",
+            "format_description": "Pair the surprised Pikachu image with a statement about an action and its predictable yet surprising consequence.",
+            "adaptability_for_restaurants": "Restaurants can illustrate common dining experiences, such as customers being surprised by the spiciness of a dish despite clear warnings.",
+            "virality_score": 7,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Distracted Boyfriend",
+            "description": "A stock photo meme showing a man looking at another woman while his partner looks on disapprovingly, used to represent shifting attention.",
+            "format_description": "Label the boyfriend as a subject, the girlfriend as the current focus, and the other woman as the new, more appealing option.",
+            "adaptability_for_restaurants": "Restaurants can depict customers being tempted by new menu items or promotions, drawing attention away from their usual choices.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Woman Yelling at Cat",
+            "description": "A meme combining a scene from 'The Real Housewives' with a confused-looking cat, used to depict arguments or misunderstandings.",
+            "format_description": "Place the yelling woman on the left and the cat on the right, adding captions to represent a dispute or miscommunication.",
+            "adaptability_for_restaurants": "Restaurants can use this format to humorously address common customer-service misunderstandings or menu item confusions.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "This Is Fine",
+            "description": "A comic of a dog sitting in a burning room, used to depict situations where someone is in denial about a crisis.",
+            "format_description": "Use the original comic or adapt it to show a character remaining calm amidst obvious problems, adding relevant captions.",
+            "adaptability_for_restaurants": "Restaurants can humorously depict scenarios like handling a busy kitchen during peak hours while maintaining composure.",
+            "virality_score": 6,
+            "platform": "Reddit"
+        },
+        {
+            "title": "Change My Mind",
+            "description": "An image of a man sitting at a table with a sign that invites people to change his mind on a controversial statement.",
+            "format_description": "Replace the text on the sign with a bold statement, inviting viewers to challenge the opinion.",
+            "adaptability_for_restaurants": "Restaurants can use this format to make playful claims about their food, such as 'Our pizza is the best in town. Change my mind.'",
+            "virality_score": 7,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Two Buttons",
+            "description": "A meme showing a person sweating over which of two buttons to press, representing difficult choices.",
+            "format_description": "Label each button with a different option, and depict the person struggling to choose between them.",
+            "adaptability_for_restaurants": "Restaurants can illustrate customers' dilemmas, like choosing between two popular dishes or deciding on dine-in versus takeout.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Crying Meme",
+            "description": "An image of a person crying, used to express exaggerated sadness or frustration humorously.",
+            "format_description": "Overlay the crying image with text describing a situation that is trivial yet portrayed as devastating.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously depict minor inconveniences, like a favorite dish being temporarily unavailable.",
+            "virality_score": 5,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Guy Looking Back",
+            "description": "A meme showing a man turning to look at another woman while his partner looks on disapprovingly, used to depict temptation.",
+            "format_description": "Label the man as a subject, the girlfriend as the current focus, and the other woman as the tempting alternative.",
+            "adaptability_for_restaurants": "Restaurants can depict customers being tempted by new menu items or promotions, drawing attention away from their usual choices.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Fueling Fun with Cheezious!",
+        "top_relevant_trends": [
+            {
+                "trend": "Fuel Price Hike Memes",
+                "adaptation": "Create 'fuel-saving' meal deals that playfully incorporate the Crown Crust Pizza as a budget-friendly option, using memes to humorously depict saving fuel by staying in and enjoying Cheezious.",
+                "priority": 1
+            },
+            {
+                "trend": "Inflation Impact Memes",
+                "adaptation": "Introduce 'inflation-buster' combo meals featuring the Crown Crust Pizza, using the 'Crying Cat' meme to humorously acknowledge price hikes while offering value deals.",
+                "priority": 2
+            },
+            {
+                "trend": "Drake Meme",
+                "adaptation": "Use the Drake meme to showcase customer preferences, with the disapproved panel showing high-priced meals elsewhere and the approved panel featuring Cheezious's affordable Crown Crust Pizza deals.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Budget-Friendly Fun",
+            "Fuel-Saving Feasts",
+            "Inflation-Buster Deals"
+        ],
+        "reasoning": "These trends align with Cheezious's fun and playful brand tone, allowing the restaurant to engage customers with humor related to current economic concerns. By leveraging viral meme formats and local economic issues, Cheezious can attract cost-conscious diners in Islamabad while highlighting the value and enjoyment of their signature Crown Crust Pizza."
+    }
+}

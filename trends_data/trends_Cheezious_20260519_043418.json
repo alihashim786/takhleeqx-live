@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Dancing Gorillas at Weddings",
+            "description": "A Lahore-based service offers performers in gorilla costumes to dance at weddings, creating a viral sensation.",
+            "relevance_to_food": "Restaurants can incorporate themed performances to enhance dining experiences and attract social media attention.",
+            "virality_score": 9,
+            "platform": "Instagram/TikTok"
+        },
+        {
+            "title": "JD Vance Visit Memes",
+            "description": "The U.S. Vice President's visit to Islamabad sparked a wave of humorous memes across Pakistani social media.",
+            "relevance_to_food": "Restaurants can create themed events or dishes inspired by viral political moments to engage customers.",
+            "virality_score": 8,
+            "platform": "Twitter/Instagram"
+        },
+        {
+            "title": "Modi Serving Tea Meme",
+            "description": "A meme depicting Indian PM Narendra Modi serving tea to global leaders went viral, highlighting Pakistani humor.",
+            "relevance_to_food": "Cafés can introduce 'Modi Chai' specials, leveraging the meme's popularity to attract patrons.",
+            "virality_score": 7,
+            "platform": "Twitter/Facebook"
+        },
+        {
+            "title": "Babar Azam's Bottle Licking Clip",
+            "description": "A video of cricketer Babar Azam licking a water bottle during a match led to widespread online memes.",
+            "relevance_to_food": "Restaurants can create promotions or menu items named after the incident to draw in cricket fans.",
+            "virality_score": 6,
+            "platform": "Twitter/Instagram"
+        },
+        {
+            "title": "Fuel Crisis Memes",
+            "description": "Amid rising fuel prices, Pakistanis turned to humor, creating memes about the situation.",
+            "relevance_to_food": "Restaurants can offer 'fuel-saving' meal deals or discounts to attract customers during economic hardships.",
+            "virality_score": 7,
+            "platform": "Facebook/Twitter"
+        },
+        {
+            "title": "Dananeer Mobeen's Continued Influence",
+            "description": "The 'Pawri Girl' remains a significant influencer, with her content frequently going viral.",
+            "relevance_to_food": "Collaborating with Dananeer for food promotions can boost a restaurant's visibility and appeal.",
+            "virality_score": 8,
+            "platform": "Instagram/TikTok"
+        },
+        {
+            "title": "Rajab Butt's Social Media Controversies",
+            "description": "YouTuber Rajab Butt faced multiple controversies, leading to widespread online discussions and memes.",
+            "relevance_to_food": "Restaurants can host events or discussions around social media ethics, attracting a younger, engaged audience.",
+            "virality_score": 6,
+            "platform": "YouTube/Instagram"
+        },
+        {
+            "title": "Rise of Micro-Influencer Partnerships",
+            "description": "Brands are shifting towards long-term collaborations with micro-influencers for better engagement and ROI.",
+            "relevance_to_food": "Restaurants can partner with local micro-influencers to promote their offerings authentically.",
+            "virality_score": 7,
+            "platform": "Instagram/TikTok"
+        },
+        {
+            "title": "Food Inflation Memes",
+            "description": "As food prices surge, Pakistanis are creating memes to cope with the economic strain.",
+            "relevance_to_food": "Restaurants can offer budget-friendly meal options or promotions to attract cost-conscious customers.",
+            "virality_score": 6,
+            "platform": "Facebook/Twitter"
+        },
+        {
+            "title": "PFA's Crackdown on Food Safety",
+            "description": "The Punjab Food Authority's actions against substandard food outlets have been widely discussed online.",
+            "relevance_to_food": "Restaurants can highlight their compliance with food safety standards to build trust and attract health-conscious patrons.",
+            "virality_score": 5,
+            "platform": "Twitter/Facebook"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "APT Dance Challenge",
+            "description": "A viral dance challenge inspired by ROSE's single 'APT.' featuring Bruno Mars, characterized by fun hand clapping and rhythmic moves.",
+            "format_description": "Participants perform the choreographed dance routine to the song 'APT.' and share their videos on social media platforms.",
+            "adaptability_for_restaurants": "Restaurants can host dance challenge events or encourage patrons to participate and share their performances, offering incentives like discounts or free items for participants.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Middle-Man Geopolitical Meme",
+            "description": "A meme format depicting an exhausted mediator caught between two escalating parties, applicable to various conflict scenarios.",
+            "format_description": "Create a three-panel image: Panel 1 shows one side escalating, Panel 2 shows the other side escalating, and Panel 3 shows the middle person trying to de-escalate.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously depict common dining dilemmas, such as choosing between menu items or accommodating different dietary preferences.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "AI-Generated Content",
+            "description": "The use of artificial intelligence to create engaging and personalized content, including memes, videos, and social media posts.",
+            "format_description": "Utilize AI tools to generate content based on trending topics or user preferences, ensuring the output aligns with the brand's voice and audience interests.",
+            "adaptability_for_restaurants": "Restaurants can leverage AI to create personalized menu recommendations, promotional content, or interactive experiences that resonate with their customers.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Beyoncé's 'Mute Challenge'",
+            "description": "A viral challenge where fans compete to stay silent during a specific lyric in Beyoncé's song, spreading rapidly across social media platforms.",
+            "format_description": "Participants record themselves remaining silent during the designated lyric and share the video online, often adding creative elements to stand out.",
+            "adaptability_for_restaurants": "Restaurants can organize 'Mute Challenge' nights, encouraging diners to participate during the song and offering rewards for successful participants.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Short-Form Video Dominance",
+            "description": "The continued rise of short-form videos on platforms like TikTok, Instagram Reels, and YouTube Shorts, capturing attention with concise and engaging content.",
+            "format_description": "Create brief, captivating videos that convey a message or story within a limited time frame, often incorporating music, effects, and quick cuts.",
+            "adaptability_for_restaurants": "Restaurants can produce short videos showcasing menu items, behind-the-scenes footage, or customer testimonials to engage viewers and attract new patrons.",
+            "virality_score": 10,
+            "platform": "TikTok"
+        },
+        {
+            "title": "AI Memes",
+            "description": "Memes that either mock artificial intelligence's quirks or are generated by AI algorithms, reflecting the growing presence of AI in daily life.",
+            "format_description": "Create or share memes that highlight humorous aspects of AI technology or use AI tools to generate meme content.",
+            "adaptability_for_restaurants": "Restaurants can create AI-themed memes related to their services, such as automated ordering systems or AI-generated menu suggestions, to engage tech-savvy customers.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Decluttering Challenges",
+            "description": "Social media challenges focused on decluttering and organizing personal spaces, promoting minimalism and tidiness.",
+            "format_description": "Participants follow specific guidelines to declutter their homes, documenting the process and sharing before-and-after photos or videos.",
+            "adaptability_for_restaurants": "Restaurants can participate by showcasing their own organizational improvements or encouraging staff to share their decluttering efforts, promoting a clean and welcoming environment.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "2000s Activewear Revival",
+            "description": "The resurgence of early 2000s activewear fashion trends, including velour tracksuits and logo-heavy sportswear, among Gen Z.",
+            "format_description": "Individuals incorporate Y2K-inspired activewear pieces into their outfits and share photos or videos highlighting the nostalgic style.",
+            "adaptability_for_restaurants": "Restaurants can host themed events or promotions that embrace the 2000s aesthetic, encouraging patrons to dress in retro activewear and offering special deals.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Frosty Lipstick Trend",
+            "description": "The comeback of frosty, icy-toned lipsticks reminiscent of early 2000s beauty trends, gaining popularity among makeup enthusiasts.",
+            "format_description": "Beauty influencers and users apply frosty lipstick shades and share tutorials or photos showcasing the look.",
+            "adaptability_for_restaurants": "Restaurants can collaborate with beauty brands to offer themed events or promotions, such as 'Frosty Fridays,' where customers wearing the trend receive discounts.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "AI-Generated Music Videos",
+            "description": "The creation of music videos using AI technology to generate visuals that sync with the music, resulting in unique and often surreal content.",
+            "format_description": "Artists or creators input music into AI software that generates corresponding visuals, which are then edited into a cohesive music video.",
+            "adaptability_for_restaurants": "Restaurants can use AI-generated music videos as ambient entertainment in their venues or collaborate with local artists to create unique promotional content.",
+            "virality_score": 8,
+            "platform": "YouTube"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Cheezious Dance and Meme Fiesta",
+        "top_relevant_trends": [
+            {
+                "trend": "Dancing Gorillas at Weddings",
+                "adaptation": "Introduce 'Gorilla Dance Nights' at Cheezious, where performers in gorilla costumes entertain diners with fun dances, encouraging patrons to share videos online for a chance to win meal vouchers.",
+                "priority": 1
+            },
+            {
+                "trend": "APT Dance Challenge",
+                "adaptation": "Host an 'APT Dance Challenge' event at Cheezious, inviting customers to participate in the dance challenge for discounts or free items, and encourage sharing their performances on social media.",
+                "priority": 2
+            },
+            {
+                "trend": "Short-Form Video Dominance",
+                "adaptation": "Create short, engaging videos of the Crown Crust Pizza being prepared and served, along with behind-the-scenes footage, to share on TikTok and Instagram Reels, promoting the unique offerings of Cheezious.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Fun Dance Events",
+            "Viral Challenges",
+            "Short-Form Video Engagement"
+        ],
+        "reasoning": "These trends align well with Cheezious's fun and playful brand tone. The 'Dancing Gorillas at Weddings' and 'APT Dance Challenge' capitalize on the viral potential of dance and performance, drawing in customers eager for a unique dining experience. The emphasis on short-form video content complements these activities, providing a dynamic way to showcase Cheezious's specialties, particularly the Crown Crust Pizza, and engage a broader audience on popular platforms."
+    }
+}

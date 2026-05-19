@@ -1,0 +1,182 @@
+{
+  "local_trends": [
+    {
+      "title": "Moye Moye Meme",
+      "description": "A humorous meme featuring the phrase 'Moye Moye' has gone viral, with users creating various parodies and adaptations.",
+      "relevance_to_food": "Restaurants can incorporate 'Moye Moye' into promotional materials or menu items to attract meme-savvy customers.",
+      "virality_score": 9,
+      "platform": "Instagram/TikTok"
+    },
+    {
+      "title": "Qudrat Ka Nizam Meme",
+      "description": "The phrase 'Qudrat Ka Nizam' has become a popular meme, symbolizing unexpected or ironic situations.",
+      "relevance_to_food": "Eateries can use this meme to highlight unique or surprising menu items, engaging customers with humor.",
+      "virality_score": 8,
+      "platform": "Twitter/Facebook"
+    },
+    {
+      "title": "Program to Warr Gaya Meme",
+      "description": "This meme, translating to 'The program has gone awry,' is used to depict plans going unexpectedly wrong.",
+      "relevance_to_food": "Restaurants can use this meme in marketing campaigns to humorously address common dining mishaps or surprises.",
+      "virality_score": 7,
+      "platform": "Instagram/Twitter"
+    },
+    {
+      "title": "Erica Robin's Miss Universe Pakistan Title",
+      "description": "Erica Robin's participation in the Miss Universe pageant and her title as Miss Universe Pakistan have garnered significant attention.",
+      "relevance_to_food": "Restaurants can collaborate with Erica Robin for endorsements or themed events to attract her fanbase.",
+      "virality_score": 8,
+      "platform": "Instagram/Facebook"
+    },
+    {
+      "title": "Ducky Bhai's Audi E-Tron Purchase",
+      "description": "Popular YouTuber Ducky Bhai's acquisition of an Audi E-Tron GT has been widely discussed online.",
+      "relevance_to_food": "Eateries can partner with Ducky Bhai for promotional events or social media campaigns to leverage his influence.",
+      "virality_score": 7,
+      "platform": "YouTube/Instagram"
+    },
+    {
+      "title": "Pakistan Pavilion at Riyadh Food Expo",
+      "description": "The Pakistan Pavilion at the InFlavour Expo 2023 in Riyadh showcased Pakistani cuisine, receiving positive feedback.",
+      "relevance_to_food": "Local restaurants can highlight their participation or the featured dishes to attract customers interested in authentic Pakistani cuisine.",
+      "virality_score": 6,
+      "platform": "Facebook/Instagram"
+    },
+    {
+      "title": "Cricket Memes from Pakistan-Netherlands Match",
+      "description": "Memes emerged from the Pakistan vs. Netherlands cricket match, humorously commenting on players' performances and moments.",
+      "relevance_to_food": "Restaurants can create cricket-themed promotions or viewing events, incorporating popular memes to engage fans.",
+      "virality_score": 8,
+      "platform": "Twitter/Facebook"
+    },
+    {
+      "title": "Shubman Gill's Hospitalization News",
+      "description": "News of Indian cricketer Shubman Gill's hospitalization due to a decrease in platelet count has been trending.",
+      "relevance_to_food": "Health-focused eateries can promote immune-boosting menu items, tying into the broader conversation about health and wellness.",
+      "virality_score": 6,
+      "platform": "Twitter/Instagram"
+    },
+    {
+      "title": "Zainab Abbas's Departure from India",
+      "description": "Pakistani presenter Zainab Abbas left India after her past anti-Hindu posts resurfaced, sparking online discussions.",
+      "relevance_to_food": "Restaurants can host dialogue sessions or cultural exchange events to promote understanding and unity, addressing the broader themes of the incident.",
+      "virality_score": 7,
+      "platform": "Twitter/Facebook"
+    },
+    {
+      "title": "Pakistan's Record Run Chase in ODI World Cup",
+      "description": "Pakistan achieved the highest-ever run chase in the 48-year history of the Men's ODI World Cup, creating a buzz online.",
+      "relevance_to_food": "Eateries can celebrate this achievement with special discounts or themed dishes, attracting cricket enthusiasts.",
+      "virality_score": 9,
+      "platform": "Twitter/Instagram"
+    }
+  ],
+  "global_trends": [
+    {
+      "title": "Drake Meme",
+      "description": "A two-panel meme featuring rapper Drake expressing disapproval in the first panel and approval in the second, used to compare preferences.",
+      "format_description": "To recreate, select two contrasting images or ideas; place the disapproved one in the top panel with Drake's 'no' gesture, and the approved one in the bottom panel with his 'yes' gesture.",
+      "adaptability_for_restaurants": "Restaurants can showcase menu items or services, highlighting a less popular option in the top panel and a featured dish or promotion in the bottom panel to influence customer choices.",
+      "virality_score": 9,
+      "platform": "Instagram"
+    },
+    {
+      "title": "APT Dance Challenge",
+      "description": "A viral dance challenge set to ROSE and Bruno Mars's song 'APT.', featuring fun hand clapping and rhythmic moves.",
+      "format_description": "Learn the choreography from popular videos and perform the dance, either solo or with a group, syncing movements to the song.",
+      "adaptability_for_restaurants": "Staff can participate in the challenge, performing the dance in the restaurant to showcase a lively atmosphere, or invite customers to join and share their videos.",
+      "virality_score": 8,
+      "platform": "TikTok"
+    },
+    {
+      "title": "Mom, what were you like in the 90s?",
+      "description": "A meme where users share current photos followed by a slideshow of their 90s photos, set to 'Iris' by the Goo Goo Dolls.",
+      "format_description": "Start with a present-day photo or video, then transition into a series of 90s-era photos, all set to the song 'Iris.'",
+      "adaptability_for_restaurants": "Restaurants can showcase their evolution by sharing current images followed by photos from the 90s, highlighting changes in decor, menu, or branding.",
+      "virality_score": 7,
+      "platform": "Instagram Reels"
+    },
+    {
+      "title": "Scooby Doo Creepy Run",
+      "description": "A meme inspired by an old Flash game where Scooby-Doo runs from ghosts, often remixed with Usher's music.",
+      "format_description": "Overlay footage of the game with Usher's songs, syncing the character's movements to the music for comedic effect.",
+      "adaptability_for_restaurants": "Restaurants can create themed content by incorporating the meme's elements into promotional videos or social media posts, adding a playful touch to their marketing.",
+      "virality_score": 6,
+      "platform": "Twitter"
+    },
+    {
+      "title": "Scientology Runs",
+      "description": "A trend where individuals attempt to run through Scientology Centers without being stopped, sharing their experiences online.",
+      "format_description": "Participants film themselves entering and navigating through the centers, aiming to reach certain points before being escorted out.",
+      "adaptability_for_restaurants": "While direct participation may not be suitable, restaurants can create parody videos where staff 'race' to complete tasks or serve customers, adding humor to their content.",
+      "virality_score": 5,
+      "platform": "TikTok"
+    },
+    {
+      "title": "6-7 Slang Epidemic",
+      "description": "An ambiguous slang term '6-7' used to denote chaotic energy, its exact meaning varies among users.",
+      "format_description": "Incorporate '6-7' into captions or dialogues to imply a sense of unpredictability or excitement.",
+      "adaptability_for_restaurants": "Use '6-7' in social media posts to describe busy nights, special events, or new menu items, creating intrigue and engagement.",
+      "virality_score": 7,
+      "platform": "Instagram"
+    },
+    {
+      "title": "Top Five Horror Movies Trend",
+      "description": "Creators share five everyday moments that feel like horror movies in a humorous way.",
+      "format_description": "List five mundane situations that are unexpectedly stressful or frightening, presenting them in a countdown format.",
+      "adaptability_for_restaurants": "Restaurants can create content highlighting 'horror' scenarios like running out of a popular dish or long wait times, adding a comedic twist to common challenges.",
+      "virality_score": 6,
+      "platform": "TikTok"
+    },
+    {
+      "title": "Great Meme Reset of 2026",
+      "description": "An internet movement to revive classic memes from the early 2000s, allowing newer generations to experience them.",
+      "format_description": "Share or recreate old memes like Nyan Cat or Keyboard Cat, adding a nostalgic touch to content.",
+      "adaptability_for_restaurants": "Restaurants can participate by incorporating classic memes into their marketing materials or social media posts, appealing to both nostalgia and humor.",
+      "virality_score": 8,
+      "platform": "Twitter"
+    },
+    {
+      "title": "Met Gala 2026 Memes",
+      "description": "Memes comparing Met Gala outfits to various pop culture references, often highlighting humorous similarities.",
+      "format_description": "Create side-by-side comparisons of Met Gala outfits with similar-looking characters or objects, adding witty captions.",
+      "adaptability_for_restaurants": "Restaurants can draw parallels between extravagant dishes or decor and Met Gala outfits, creating engaging content that ties into current events.",
+      "virality_score": 7,
+      "platform": "Instagram"
+    },
+    {
+      "title": "Euphoria Season 3 Reactions",
+      "description": "Fans share reactions and memes about character developments and plot twists from the latest season of 'Euphoria.'",
+      "format_description": "Post screenshots or clips from the show with captions expressing surprise, humor, or commentary on the events.",
+      "adaptability_for_restaurants": "Restaurants can create themed nights or menu items inspired by the show, sharing related content to attract fans and engage with trending topics.",
+      "virality_score": 6,
+      "platform": "TikTok"
+    }
+  ],
+  "synthesis": {
+    "recommended_angle": "Meme-Driven Fun",
+    "top_relevant_trends": [
+      {
+        "trend": "Moye Moye Meme",
+        "adaptation": "Create a special 'Moye Moye Crown Crust Pizza' that incorporates the meme's humor into its marketing material and social media posts, offering a playful and engaging experience.",
+        "priority": 1
+      },
+      {
+        "trend": "Drake Meme",
+        "adaptation": "Use the Drake meme format to highlight the Crown Crust Pizza as the top choice over less popular dishes, emphasizing the fun and playful tone of the brand.",
+        "priority": 2
+      },
+      {
+        "trend": "APT Dance Challenge",
+        "adaptation": "Encourage staff and customers to participate in the APT Dance Challenge inside the restaurant, creating a lively atmosphere and sharing the videos on social media to engage with younger audiences.",
+        "priority": 3
+      }
+    ],
+    "content_themes": [
+      "Meme Integration",
+      "Dance Challenges",
+      "Fun Comparisons"
+    ],
+    "reasoning": "These trends align with Cheezious' fun and playful brand tone, allowing the restaurant to leverage both local cultural memes and global viral formats to create engaging and shareable content. By integrating popular memes like 'Moye Moye' and the Drake meme, Cheezious can appeal to meme-savvy customers while using the APT Dance Challenge to attract a younger, social media-active audience. This combination enhances brand visibility and fosters a dynamic, interactive dining experience."
+  }
+}

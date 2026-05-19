@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "JD Vance's Visit to Pakistan",
+            "description": "US Vice President JD Vance's visit to Islamabad sparked a wave of humorous memes on Pakistani social media, with users joking about his experiences with local customs and bureaucracy.",
+            "relevance_to_food": "Restaurants can create themed events or dishes inspired by the visit, incorporating American-Pakistani fusion cuisine to attract customers.",
+            "virality_score": 9,
+            "platform": "Twitter"
+        },
+        {
+            "title": "April Fool's Day 'War Lockdown Notice' Prank",
+            "description": "A fake 'War Lockdown Notice' circulated on social media during April Fool's Day, leading to widespread amusement and confusion.",
+            "relevance_to_food": "Restaurants can engage customers with lighthearted pranks or special offers on April Fool's Day to boost engagement.",
+            "virality_score": 8,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Fuel Price Hike Memes",
+            "description": "Amid rising fuel prices, Pakistani netizens shared memes highlighting the impact on daily life and expenses.",
+            "relevance_to_food": "Restaurants can offer promotions or discounts to customers who share their own fuel price hike memes, encouraging social media engagement.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "T20 World Cup Semi-Final Qualification Memes",
+            "description": "Memes capturing Pakistan's uncertain journey to the T20 World Cup semi-finals went viral, reflecting the nation's cricket fervor.",
+            "relevance_to_food": "Restaurants can host cricket match screenings and offer special deals during games to attract cricket fans.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Tom Tucker Slow Walk Meme",
+            "description": "A meme featuring Tom Tucker's slow-motion walk gained popularity for its dramatic and comedic effect.",
+            "relevance_to_food": "Restaurants can create short videos using this meme format to showcase their ambiance or highlight special dishes.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Jujutsu Kaisen 'Disappointed' Moments",
+            "description": "Memes based on 'disappointed' moments from the anime Jujutsu Kaisen became a trending way to express relatable feelings.",
+            "relevance_to_food": "Restaurants can use this meme format to humorously depict common dining experiences, such as waiting for food or sold-out specials.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Rajat Bedi's Reaction to Asha Bhosle News",
+            "description": "Actor Rajat Bedi's over-the-top reaction to news about singer Asha Bhosle became a viral meme template.",
+            "relevance_to_food": "Restaurants can create content featuring staff or customers reacting dramatically to new menu items or promotions.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "South Indian Man Singing 'Gangay'",
+            "description": "A video of a South Indian man singing 'Gangay' in an extended manner went viral for its humor and impressiveness.",
+            "relevance_to_food": "Restaurants can create their own versions of this meme, perhaps featuring chefs or staff singing about popular dishes.",
+            "virality_score": 6,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Samay Raina's 'Still Alive' Clip",
+            "description": "Comedian Samay Raina's 'Still Alive' clip gained massive attention and was widely used in memes.",
+            "relevance_to_food": "Restaurants can use this clip to humorously announce their continued operation or new offerings.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Gorilla Face Meme with Salman Khan Edit",
+            "description": "A humorous edit blending a gorilla's face with actor Salman Khan's became a widely shared meme.",
+            "relevance_to_food": "Restaurants can create similar humorous edits featuring popular dishes or staff members to engage customers.",
+            "virality_score": 6,
+            "platform": "Facebook"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "Drake Meme",
+            "description": "A two-panel meme featuring rapper Drake expressing disapproval in the top panel and approval in the bottom panel, used to compare preferences.",
+            "format_description": "To recreate, select two contrasting images or statements, placing the less favorable one in the top panel with Drake's disapproving gesture, and the favorable one in the bottom panel with his approving gesture.",
+            "adaptability_for_restaurants": "Restaurants can use this format to highlight menu items, showcasing a less popular dish in the top panel and a signature or new dish in the bottom panel to promote specials.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Crying Cat",
+            "description": "An image of a cat with teary eyes, used to convey sadness or emotional reactions humorously.",
+            "format_description": "Overlay the crying cat image onto a relatable or humorous caption that reflects a situation causing mild distress or disappointment.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously depict scenarios like running out of a popular dish or a long wait time, making light of common dining frustrations.",
+            "virality_score": 8,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Surprised Pikachu",
+            "description": "An image of Pikachu with a surprised expression, used to express shock or disbelief at an expected outcome.",
+            "format_description": "Pair the surprised Pikachu image with a caption describing an action and its predictable yet surprising consequence.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to highlight customer reactions to unexpectedly delicious dishes or surprising menu changes.",
+            "virality_score": 8,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Distracted Boyfriend",
+            "description": "A stock photo meme depicting a man looking at another woman while his partner looks on disapprovingly, used to represent temptation or distraction.",
+            "format_description": "Label the characters to represent different concepts, with the 'boyfriend' representing someone tempted by a new option, the 'girlfriend' representing the current choice, and the 'other woman' representing the tempting alternative.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to showcase customers being tempted by new menu items or promotions, drawing attention to new offerings.",
+            "virality_score": 7,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Woman Yelling at Cat",
+            "description": "A meme combining a scene from 'The Real Housewives of Beverly Hills' with a confused-looking cat at a dinner table, used to depict arguments or misunderstandings.",
+            "format_description": "Pair the image of the woman yelling with the cat image, adding captions to represent a heated argument and a confused or indifferent response.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously depict common customer service scenarios or misunderstandings in a lighthearted way.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "This Is Fine",
+            "description": "A comic of a dog sitting in a burning room, calmly saying 'This is fine,' used to depict situations where someone is in denial about a disaster.",
+            "format_description": "Use the original comic or adapt it by placing the 'This is fine' dog in a scenario where someone is ignoring obvious problems.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously acknowledge minor mishaps or challenges, showing resilience and a sense of humor.",
+            "virality_score": 6,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Change My Mind",
+            "description": "An image of a man sitting at a table with a sign that reads 'Change My Mind,' used to present opinions and invite debate.",
+            "format_description": "Replace the text on the sign with a statement or opinion, inviting others to challenge or discuss it.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to make bold statements about their food or services, encouraging engagement and discussion from customers.",
+            "virality_score": 6,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Two Buttons",
+            "description": "A comic showing a person sweating over which of two buttons to press, used to depict difficult choices.",
+            "format_description": "Label each button with two conflicting choices or actions, illustrating a dilemma.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to showcase customers' tough decisions between two popular dishes or promotions.",
+            "virality_score": 5,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Crying Meme",
+            "description": "An image of a person crying, used to express exaggerated sadness or frustration humorously.",
+            "format_description": "Pair the crying image with a caption describing a situation that causes mild distress or disappointment.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to humorously depict scenarios like missing out on a special deal or a favorite dish being unavailable.",
+            "virality_score": 5,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Guy Looking Back",
+            "description": "A stock photo meme showing a man looking at another woman while his partner looks on disapprovingly, similar to the 'Distracted Boyfriend' meme.",
+            "format_description": "Label the characters to represent different concepts, with the 'guy' representing someone tempted by a new option, the 'girlfriend' representing the current choice, and the 'other woman' representing the tempting alternative.",
+            "adaptability_for_restaurants": "Restaurants can use this meme to showcase customers being tempted by new menu items or promotions, drawing attention to new offerings.",
+            "virality_score": 4,
+            "platform": "Instagram"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Cheesy Memes and Fusion Fun",
+        "top_relevant_trends": [
+            {
+                "trend": "JD Vance's Visit to Pakistan",
+                "adaptation": "Create a themed 'American-Pakistani Fusion Week' featuring special dishes like a 'JD Vance Crown Crust Pizza,' incorporating American-style toppings with a Pakistani twist.",
+                "priority": 1
+            },
+            {
+                "trend": "Drake Meme",
+                "adaptation": "Use the Drake meme format to highlight the Crown Crust Pizza as the preferred choice over a generic pizza, thereby promoting the specialty with a fun twist.",
+                "priority": 2
+            },
+            {
+                "trend": "T20 World Cup Semi-Final Qualification Memes",
+                "adaptation": "Host cricket match screenings with special deals on pizzas and drinks, and create memes incorporating the Crown Crust Pizza as the 'winning choice' for cricket fans.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "American-Pakistani Fusion",
+            "Meme Marketing with a Cheesy Twist",
+            "Cricket Fever with Pizza Deals"
+        ],
+        "reasoning": "These trends align well with Cheezious's fun and playful brand tone, allowing the restaurant to capitalize on current social media virality and engage with its audience in a humorous and culturally relevant manner. By combining a local political figure's visit with global meme formats like Drake and capitalizing on cricket enthusiasm, Cheezious can create a dynamic marketing campaign that resonates with its target audience in Islamabad, encouraging both in-store visits and social media engagement."
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "local_trends": [
+        {
+            "title": "Biryani Recipe Challenges",
+            "description": "Users are sharing and competing in creating unique biryani recipes, showcasing regional variations and personal twists.",
+            "relevance_to_food": "Restaurants can host biryani-making contests or feature customer-inspired biryani specials to engage with this trend.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Street Food Exploration Vlogs",
+            "description": "Vloggers are documenting their experiences trying various street foods across Pakistan, highlighting local flavors and vendors.",
+            "relevance_to_food": "Restaurants can collaborate with influencers to feature their dishes in such vlogs, increasing visibility.",
+            "virality_score": 7,
+            "platform": "YouTube"
+        },
+        {
+            "title": "Winter Comfort Foods",
+            "description": "Content focusing on traditional winter dishes like nihari, paya, and halwa puri is gaining popularity as the season changes.",
+            "relevance_to_food": "Restaurants can promote seasonal menus featuring these comfort foods to attract customers seeking traditional winter meals.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Recreating Iconic Drama Scenes",
+            "description": "Users are reenacting famous scenes from popular Pakistani dramas, adding their own humorous twists.",
+            "relevance_to_food": "Restaurants can create themed dining experiences or events based on popular dramas to attract fans.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Failed RAW Agent Memes",
+            "description": "Memes parodying the concept of failed intelligence agents in Pakistan have gone viral, often with humorous takes on espionage.",
+            "relevance_to_food": "Restaurants can create themed nights or menu items inspired by these memes to attract a younger, meme-savvy audience.",
+            "virality_score": 7,
+            "platform": "Twitter"
+        },
+        {
+            "title": "Chahat Fateh Ali Khan Parodies",
+            "description": "Parodies and memes inspired by the unique performances of Chahat Fateh Ali Khan are trending across social media.",
+            "relevance_to_food": "Restaurants can host live music nights featuring local artists performing in a similar style to attract fans.",
+            "virality_score": 8,
+            "platform": "Facebook"
+        },
+        {
+            "title": "Dananeer Mobeen's Lifestyle Content",
+            "description": "Influencer Dananeer Mobeen's posts about her daily life, fashion, and food experiences are widely shared and discussed.",
+            "relevance_to_food": "Restaurants can collaborate with Dananeer for promotions or feature her favorite dishes to draw in her followers.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        },
+        {
+            "title": "US Vlogger's Pakistani Food Tour",
+            "description": "A US-based vlogger's exploration of Pakistani street food has captivated audiences, showcasing the country's culinary diversity.",
+            "relevance_to_food": "Restaurants can invite international food bloggers to review their offerings, gaining exposure to a global audience.",
+            "virality_score": 7,
+            "platform": "YouTube"
+        },
+        {
+            "title": "Food ASMR Videos",
+            "description": "ASMR videos featuring the sounds of cooking and eating Pakistani dishes are gaining traction for their soothing qualities.",
+            "relevance_to_food": "Restaurants can produce their own ASMR content to showcase their dishes and create a sensory experience for viewers.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Traditional Dessert Revival",
+            "description": "There's a renewed interest in traditional Pakistani desserts like gulab jamun, jalebi, and kheer, with users sharing recipes and reviews.",
+            "relevance_to_food": "Restaurants can highlight these desserts in their menus and offer tasting platters to cater to this nostalgic trend.",
+            "virality_score": 9,
+            "platform": "Instagram"
+        }
+    ],
+    "global_trends": [
+        {
+            "title": "Euphoria Season 3 Reactions",
+            "description": "Fans are sharing reactions and snippets from the latest season of HBO's 'Euphoria,' focusing on character developments and plot twists.",
+            "format_description": "Create videos reacting to key scenes or character arcs, adding personal commentary or analysis.",
+            "adaptability_for_restaurants": "Restaurants can create themed dishes or drinks inspired by the show and share them alongside reaction videos to engage fans.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Tomodachi Life 'Map Day' Meme",
+            "description": "Users are recreating the quirky in-game format of 'Tomodachi Life,' featuring an on-screen title bar with an apartment number and name, followed by a meme.",
+            "format_description": "Design a video with a title bar displaying a fictional apartment number and name, then showcase a humorous or relatable scenario.",
+            "adaptability_for_restaurants": "Restaurants can feature their dishes or staff in the 'apartment,' creating fun narratives around menu items or dining experiences.",
+            "virality_score": 8,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Michael Jackson 'Beat It' Dance Revival",
+            "description": "Following the release of the 'Michael' biopic, TikTok users are reviving the iconic 'Beat It' dance moves.",
+            "format_description": "Film a dance video performing the 'Beat It' choreography, possibly adding a modern twist or personal flair.",
+            "adaptability_for_restaurants": "Staff can participate in the dance challenge, showcasing their moves in the restaurant setting to entertain and attract customers.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "POV Reels: First-Person Storytelling",
+            "description": "Creators are capturing their day from a first-person perspective, offering an immersive experience to viewers.",
+            "format_description": "Record daily activities from your point of view, using quick cuts synced to upbeat music to create an engaging narrative.",
+            "adaptability_for_restaurants": "Restaurants can showcase a day in the life of a chef or a behind-the-scenes look at meal preparation, providing an intimate view of their operations.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "The 'Wrong Name Loophole' Meme",
+            "description": "Users humorously misinterpret criticisms by pretending the complaints are directed at someone else with a similar-sounding name.",
+            "format_description": "Create a video showing yourself engaging in a criticized behavior, overlaying text that humorously misinterprets the criticism as being directed at someone else.",
+            "adaptability_for_restaurants": "Restaurants can playfully address common critiques (e.g., 'Your portions are too big') by showcasing their generous servings and misattributing the complaint in a humorous way.",
+            "virality_score": 7,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Flash Filter Transformations",
+            "description": "Users are applying Instagram's new Flash filter to give photos a direct-flash, retro look reminiscent of late-2000s nightlife photography.",
+            "format_description": "Use the Flash filter on photos to create a before-and-after transformation, highlighting the dramatic effect.",
+            "adaptability_for_restaurants": "Restaurants can apply the filter to showcase their ambiance or dishes, giving them a nostalgic, trendy aesthetic.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "'Take Her Swimming on the First Date' Makeup Challenge",
+            "description": "Creators are testing the durability of their makeup by diving into pools, showcasing products that withstand water.",
+            "format_description": "Apply a full face of makeup, dive into a pool, and emerge to reveal how well the makeup holds up.",
+            "adaptability_for_restaurants": "Restaurants with outdoor or poolside dining can create content featuring staff or patrons enjoying meals by the pool, emphasizing the fun and resilient aspects of their offerings.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Met Gala 2026 Highlights",
+            "description": "Content featuring standout moments and fashion from the 2026 Met Gala, including celebrity appearances and unique outfits.",
+            "format_description": "Compile clips or images from the Met Gala, adding commentary or recreating favorite looks.",
+            "adaptability_for_restaurants": "Restaurants can host Met Gala-themed events or menu items, sharing content that ties into the glamour and style of the event.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        },
+        {
+            "title": "Mom, What Were You Like in the 90s?",
+            "description": "Users are sharing current videos followed by a slideshow of their 90s photos set to 'Iris' by the Goo Goo Dolls.",
+            "format_description": "Start with a present-day clip, then transition into a montage of 90s photos, all set to the song 'Iris.'",
+            "adaptability_for_restaurants": "Restaurants can showcase their evolution by sharing current footage followed by images of their establishment in the 90s, highlighting their history and growth.",
+            "virality_score": 8,
+            "platform": "Instagram"
+        },
+        {
+            "title": "Six Seven Dance Challenge",
+            "description": "A Brazilian dance craze set to the song 'Six Seven,' popularized by BTS's J-Hope, featuring energetic choreography.",
+            "format_description": "Learn and perform the 'Six Seven' dance routine, adding personal flair or group participation.",
+            "adaptability_for_restaurants": "Restaurant staff can participate in the dance challenge, creating a fun and engaging atmosphere that resonates with younger audiences.",
+            "virality_score": 9,
+            "platform": "TikTok"
+        }
+    ],
+    "synthesis": {
+        "recommended_angle": "Biryani Fiesta: A Fusion of Fun, Flavor, and Dance",
+        "top_relevant_trends": [
+            {
+                "trend": "Biryani Recipe Challenges",
+                "adaptation": "Host a 'Biryani Battle' event where customers submit unique biryani recipes. Feature the winning recipe as a special menu item and document the event with TikTok videos.",
+                "priority": 1
+            },
+            {
+                "trend": "Six Seven Dance Challenge",
+                "adaptation": "Encourage staff and customers to participate in the 'Six Seven' dance challenge, incorporating biryani elements (e.g., props like a biryani pot) and sharing on TikTok.",
+                "priority": 2
+            },
+            {
+                "trend": "Euphoria Season 3 Reactions",
+                "adaptation": "Create Euphoria-themed biryani dishes and host viewing parties. Share reaction videos and themed content on TikTok to engage the show's fanbase.",
+                "priority": 3
+            }
+        ],
+        "content_themes": [
+            "Dance and Dine",
+            "Culinary Competitions",
+            "Pop Culture Fusions"
+        ],
+        "reasoning": "These trends align well with Karachi Biryani Centre's fun and playful brand tone. The Biryani Recipe Challenges directly highlight the restaurant's specialty, engaging local foodies through participatory events. The Six Seven Dance Challenge adds a viral, energetic element that appeals to a younger audience, while the Euphoria theme connects the restaurant to global pop culture, attracting diverse customers interested in trendy, themed experiences."
+    }
+}
